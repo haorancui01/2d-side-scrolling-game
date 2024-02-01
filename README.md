@@ -1,4 +1,30 @@
+# What is this project?
 
+This game was created in the Class of Game Programming Techniques in early 2021.
+
+I designed a three-stage 2D scrolling shooting game on my own. In this game, players can control the character to shoot enemies across three different stages until defeating the boss in the third stage.
+
+Techniques:
+
+- Developed using C# in .NET
+- Monoframwork
+- Internal framwork build my course mentor called `RC_framework`
+
+Resources:
+
+- Mainly from itch.io 
+
+And ...
+
+This project stands out as the most enriching coding experience during my university years. Despite the simplicity of the gameplay, it brought a lot of enjoyment. I dedicated considerable time to implementing features such as game algorithms, game assets (spritesheets, backgrounds, sound, and music), turning my ideas into reality.
+
+The achievements made throughout the project are evident in the final product, and I deeply appreciate how this course provided valuable insights into the construction of a game.
+
+Following this course, my focus shifted towards building websites, exploring both front-end and back-end development. However, if the opportunity arises in the future, I am keen on revisiting the exciting realm of game programming.
+
+
+
+Content belows are some screentshots presnt how the game looks like
 
 <figure>
   <img src="https://lh7-us.googleusercontent.com/hTYs-g30pvVDgnzqujhUr60easuxi78LFmOHg1CkEzedyNpbkrTovkO6FC0KaBEq0ItY91c4xY6sc35RI1bA4me3brgQUqDB8Ckg0h-1pgWzXKjyl6Kb5yrLOLpXitflnNX6tsFzaIdDUvR7L7bjKQdotfhZtT6gXrNMDM_UeJz4NZrAbDqX3QRal5om">
@@ -43,9 +69,7 @@ Boss Sprites
 
 ![img](https://lh7-us.googleusercontent.com/zndxVpS6tkXodaBdJqMDRI203nJfNXO-k68FaWITCHu_ioUlThpCLOCDkXzqh0Ei1YwWyFmg5idCk-Sf4CsjK5TZDteQitiAUDgC1X4kqd2iu1ttgmPBEYrNfSxeAXugSFguoI1DJT6Hr-Giv7GF66uV4xr-URBcM8x2wF0mQgaGyFFcwnrHTcTgccFH)
 
-
-
-Three layers
+Three stages
 
 
 
