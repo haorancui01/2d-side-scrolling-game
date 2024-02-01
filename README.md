@@ -7,10 +7,6 @@
 
 
 
-
-
-
-
 Final Game Layer
 
 
@@ -45,13 +41,15 @@ Player Sprites
 
 ![img](https://lh7-us.googleusercontent.com/EV-sY7390JFccn78Offe6rKGhcc0gfYz4v7QFw15ns2kgIP5oeYN_xrDhzzJFI3F-gwd1jEljK2foChp6vnmhMekHB-y51G5aORok-qacZHmiPyljIPybRAjDZWhoBHaY9actPwNWL6n0m08reCQaqpoaBpT3pkvFpQNQKU3slpPcfaYmbfDmVUnfOFq)
 
+Boss Sprites
+
 
 
 ![img](https://lh7-us.googleusercontent.com/zndxVpS6tkXodaBdJqMDRI203nJfNXO-k68FaWITCHu_ioUlThpCLOCDkXzqh0Ei1YwWyFmg5idCk-Sf4CsjK5TZDteQitiAUDgC1X4kqd2iu1ttgmPBEYrNfSxeAXugSFguoI1DJT6Hr-Giv7GF66uV4xr-URBcM8x2wF0mQgaGyFFcwnrHTcTgccFH)
 
 
 
-
+Three layers
 
 
 
