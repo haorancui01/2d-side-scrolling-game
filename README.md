@@ -1,4 +1,17 @@
-![img](https://lh7-us.googleusercontent.com/hTYs-g30pvVDgnzqujhUr60easuxi78LFmOHg1CkEzedyNpbkrTovkO6FC0KaBEq0ItY91c4xY6sc35RI1bA4me3brgQUqDB8Ckg0h-1pgWzXKjyl6Kb5yrLOLpXitflnNX6tsFzaIdDUvR7L7bjKQdotfhZtT6gXrNMDM_UeJz4NZrAbDqX3QRal5om)
+
+
+<figure>
+  <img src="https://lh7-us.googleusercontent.com/hTYs-g30pvVDgnzqujhUr60easuxi78LFmOHg1CkEzedyNpbkrTovkO6FC0KaBEq0ItY91c4xY6sc35RI1bA4me3brgQUqDB8Ckg0h-1pgWzXKjyl6Kb5yrLOLpXitflnNX6tsFzaIdDUvR7L7bjKQdotfhZtT6gXrNMDM_UeJz4NZrAbDqX3QRal5om">
+  <figcaption>Final Game Layer</figcaption>
+</figure>
+
+
+
+
+
+
+
+Final Game Layer
 
 
 
@@ -6,7 +19,13 @@
 
 
 
+First Game play background
+
+
+
 ![img](https://lh7-us.googleusercontent.com/bYVmwYFOe-ZFY2dOZ3ZvvuCFbc0FWAyqXoYJGH6-jKbG30gzkCbMwAtoYqKE4g2dyFjlMo248FpJiEmKG79UKxMfZW9cZBn7WoF2t0ISgVUq-z_JOkHgDS7UEMHYsUZJwgED6LahiR5FUlKHQ8Hf7jQ7t2VDQoVU-3nF4bf_kdZCICY0a8o6zd4aucWr)
+
+
 
 
 
@@ -15,6 +34,8 @@
 
 
 ![img](https://lh7-us.googleusercontent.com/96FVTnp1P7nZuLHyEKpMqe8rxiDLciXY0CLQzS629AV9LFQWEUyVqTB3VKn3K6K6U1RpNeZl_p_C9NDt0yaiIUFMLWUx98dcteHZexhRgyIr5DhzdrvgTUrnRZpCljUOUQu28y32tXyv1825ZvMqW7ydDUclccXdqqOHnDUPRp-Ieu-rtXKPLrOiy2-Z)
+
+Player Sprites
 
 
 
