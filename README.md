@@ -7,13 +7,6 @@
 
 
 
-<<<<<<< HEAD
-Final Game Layer
-=======
->>>>>>> a5fe23c2fbd5a10864e880c786b3fde1a49c6f24
-
-
-
 ![img](https://lh7-us.googleusercontent.com/uvQCHdOKuq0_C3sPzzdbM-si5-E0ArIWjALWHmB45W9XaIW7peyPhNJStNFXHeSF9fHwShZkOyOuuqFez28nzpEFO9Y2Lfqo2tFdWlxDmPJGCSGWjhxp8NjeGq8FR9G47cXvXbDsOx64ozIJn1VFLZE8Agqn7v4emKHy4Mn2PD3gL5NGWQL152tWCc_O)
 
 
