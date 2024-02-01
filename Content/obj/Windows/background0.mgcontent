@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/background0.wav</SourceFile>
+  <SourceTime>2021-05-06T22:35:27.7868361+10:00</SourceTime>
+  <DestFile>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/bin/Windows/background0.xnb</DestFile>
+  <DestTime>2021-05-12T20:53:59.3796042+10:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2018-12-09T03:35:54+11:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2018-12-09T03:35:54+11:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

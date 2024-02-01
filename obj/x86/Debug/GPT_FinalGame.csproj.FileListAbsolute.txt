@@ -1,0 +1,438 @@
+E:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csprojAssemblyReference.cache
+E:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csproj.CoreCompileInputs.cache
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\GPT_FinalGame.exe
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\GPT_FinalGame.pdb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\MonoGame.Framework.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XInput.dll
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\MonoGame.Framework.xml
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.xml
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XInput.xml
+E:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csproj.CopyComplete
+E:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.exe
+E:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.pdb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\GPT_FinalGame.exe
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\GPT_FinalGame.pdb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\MonoGame.Framework.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XInput.dll
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\MonoGame.Framework.xml
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.xml
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XInput.xml
+G:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csprojAssemblyReference.cache
+G:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csproj.CoreCompileInputs.cache
+G:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csproj.CopyComplete
+G:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.exe
+G:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.pdb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont2.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont3.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sky_lightened.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sky_lightened.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont3.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Mouse.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Hills Layer 05.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\glacial_mountains.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\stand.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\nightborne_run.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\runNightBorne.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\runNightBorne1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\NightBorne_1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\glacial_mountains.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Hills Layer 05.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Mouse.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\NightBorne_1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\nightborne_run.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\runNightBorne.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\runNightBorne1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\stand.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidAttack.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidDeath.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidRun.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidWake.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droid.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tileset.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tile1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tile2.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sideTile1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\startTile.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\rightSide.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToLeft.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToRight .xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToRight.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToRight .xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droid.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidAttack.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidDeath.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidRun.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidWake.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\rightSide.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sideTile1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToLeft.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToRight.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\startTile.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tile1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tile2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tileset.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\mid.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\leftSquare.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\leftSide.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\square1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\trap1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\door.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\stone.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\twoBlock.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bg0.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bar.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\leftSquare.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bar.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bg0.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\door.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\leftSide.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\mid.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\square1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\stone.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\trap1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\twoBlock.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\ship-01.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\ship_ide.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\ship-01.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\ship_ide.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bullet1.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bullet1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\platform.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droid_left.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidRun_left.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\eye_die.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\eye_fly.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\heart.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidRun_left.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droid_left.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\eye_die.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\eye_fly.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\heart.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\platform.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\fallingStone.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\fallingStone.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\button.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\button_pressed.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\3plat.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\plat3.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\3plat.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\button.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\button_pressed.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\plat3.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\clouds1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\clouds1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\3plat.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidRun.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\leftSquare.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont2.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToRight .xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bar.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bg0.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bullet1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\button.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\button_pressed.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\clouds1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\door.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droid.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidAttack.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidDeath.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidRun_left.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droidWake.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\droid_left.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\eye_die.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\eye_fly.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\fallingStone.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\glacial_mountains.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\heart.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Hills Layer 05.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\leftSide.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\mid.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Mouse.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\NightBorne_1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\nightborne_run.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\plat3.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\platform.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\rightSide.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\runNightBorne.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\runNightBorne1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\ship-01.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\ship_ide.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sideTile1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sky_lightened.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont3.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToLeft.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spriteToRight.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\square1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\stand.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\startTile.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\stone.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tile1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tile2.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\tileset.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\trap1.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\twoBlock.xnb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\GPT_FinalGame.exe
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\GPT_FinalGame.pdb
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.xml
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csprojAssemblyReference.cache
+D:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csproj.CoreCompileInputs.cache
+D:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.csproj.CopyComplete
+D:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.exe
+D:\GPT_FinalGame\GPT_FinalGame\obj\x86\Debug\GPT_FinalGame.pdb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bg_2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\fireBall.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont4.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\boss.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\background.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\background0.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sound_shoot.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\snow.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\plat2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\testSprite.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\background.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\background0.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\bg_2.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\boss.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\fireBall.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\plat2.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\snow.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\sound_shoot.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\spritefont4.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\testSprite.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\weapon.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\weapon.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\splashBg.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\play.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\play.xnb
+G:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\splashBg.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\layer0.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\layer1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\layer2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\clouds2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Particle1.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\Particle2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\slime_walk_left.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\slime_walk_right.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\play2.xnb
+E:\GPT_FinalGame\GPT_FinalGame\bin\Windows\x86\Debug\Content\frame.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\3plat.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droidRun.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\leftSquare.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spriteToRight .xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\background.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\background0.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bar.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bg0.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bg_2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\boss.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bullet1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\button.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\button_pressed.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\clouds1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\clouds2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\door.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droid.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droidAttack.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droidDeath.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droidRun_left.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droidWake.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droid_left.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\eye_die.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\eye_fly.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\fallingStone.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\fireBall.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\frame.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\glacial_mountains.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\heart.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Hills Layer 05.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\layer0.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\layer1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\layer2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\leftSide.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\mid.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Mouse.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\NightBorne_1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\nightborne_run.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Particle1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Particle2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\plat2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\plat3.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\platform.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\play.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\play2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\rightSide.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\runNightBorne.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\runNightBorne1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\ship-01.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\ship_ide.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\sideTile1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\sky_lightened.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\slime_walk_left.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\slime_walk_right.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\snow.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\sound_shoot.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\splashBg.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont3.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont4.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spriteToLeft.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spriteToRight.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\square1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\stand.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\startTile.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\stone.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\testSprite.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\tile1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\tile2.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\tileset.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\trap1.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\twoBlock.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\weapon.xnb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\GPT_FinalGame.exe
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\GPT_FinalGame.pdb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\MonoGame.Framework.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XInput.dll
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\MonoGame.Framework.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XInput.xml
+G:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.csprojAssemblyReference.cache
+G:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.csproj.CoreCompileInputs.cache
+G:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.csproj.CopyComplete
+G:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.exe
+G:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.pdb
+G:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\endBg.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\3plat.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\droidRun.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\leftSquare.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spriteToRight .xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\background.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\background0.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bar.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bg0.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bg_2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\boss.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\bullet1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\clouds1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\clouds2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\door.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\endBg.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\eye_die.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\eye_fly.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\fallingStone.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\fireBall.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\frame.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\glacial_mountains.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\heart.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Hills Layer 05.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\layer0.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\layer1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\layer2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Mouse.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Particle1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\Particle2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\plat2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\plat3.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\platform.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\play.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\play2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\rightSide.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\ship-01.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\ship_ide.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\sky_lightened.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\slime_walk_left.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\slime_walk_right.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\snow.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\sound_shoot.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\splashBg.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont3.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spritefont4.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spriteToLeft.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\spriteToRight.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\square1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\stand.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\startTile.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\stone.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\testSprite.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\tile1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\tile2.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\tileset.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\trap1.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\Content\weapon.xnb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\GPT_FinalGame.exe
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\GPT_FinalGame.pdb
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\MonoGame.Framework.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XInput.dll
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\MonoGame.Framework.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\bin\Windows\x86\Debug\SharpDX.XInput.xml
+E:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.csprojAssemblyReference.cache
+E:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.csproj.CoreCompileInputs.cache
+E:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.csproj.CopyComplete
+E:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.exe
+E:\GPT_FinalGame\GPT_FinalGame 0805\obj\x86\Debug\GPT_FinalGame.pdb

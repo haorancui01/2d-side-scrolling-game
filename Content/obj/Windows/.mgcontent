@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/background.wav</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/background0.wav</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/bar.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/bg_2.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/bg0.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/boss.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/bullet1.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/clouds1.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/clouds2.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/door.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/endBg.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/eye_die.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/eye_fly.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/fallingStone.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/fireBall.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/frame.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/glacial_mountains.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/heart.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/Hills Layer 05.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/layer0.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/layer1.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/layer2.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/Mouse.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/Particle1.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/Particle2.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/plat2.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/plat3.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/platform.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/play.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/play2.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/rightSide.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/ship_ide.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/ship-01.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/sky_lightened.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/slime_walk_left.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/slime_walk_right.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/snow.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/sound_shoot.wav</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/splashBg.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/spritefont1.spritefont</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/spritefont3.spritefont</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/spritefont4.spritefont</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/spriteToLeft.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/spriteToRight.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/square1.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/stand.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/startTile.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/stone.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/testSprite.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/tile1.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/tile2.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/tileset.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/trap1.png</File>
+    <File>E:/GPT_FinalGame/GPT_FinalGame 0805/Content/weapon.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

@@ -1,0 +1,2161 @@
+(("undefined" != typeof global ? global : self).webpackJsonp = ("undefined" != typeof global ? global : self).webpackJsonp || []).push([ [ 75 ], {
+    "18mY": function(e, t, n) {
+        "use strict";
+        n("jQ3i");
+        var o = {
+            Vector: "spinner-vector"
+        }, r = {
+            data: function() {
+                return {
+                    svgId: "spinner-" + Date.now(),
+                    testIds: o
+                };
+            },
+            props: {
+                text: {
+                    type: String,
+                    required: !1
+                },
+                autofill: {
+                    type: Boolean,
+                    default: !1
+                },
+                color: {
+                    type: String,
+                    default: "blue",
+                    validator: function(e) {
+                        return [ "white", "blue" ].includes(e);
+                    }
+                }
+            }
+        }, l = n("ayNN"), i = n("K+aO");
+        var a = Object(i.default)(r, (function() {
+            var e, t, n = this, o = n.$createElement, r = n._self._c || o;
+            return r("div", {
+                ref: "spinnerContainer",
+                staticClass: "vc-Spinner rf-spinner",
+                class: (e = {}, e[n.$style.standaloneSpinner] = !n.text && !n.autofill, e)
+            }, [ r("svg", {
+                class: [ (t = {}, t[n.$style.autofill] = n.autofill, t), "rf-spinner__spinner" ],
+                attrs: {
+                    width: "100%",
+                    height: "100%",
+                    viewBox: "0 0 200 200",
+                    preserveAspectRatio: "xMinYMin meet",
+                    version: "1.1",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "xmlns:xlink": "http://www.w3.org/1999/xlink"
+                }
+            }, [ r("defs", [ r("linearGradient", {
+                attrs: {
+                    id: n.svgId,
+                    x1: "0%",
+                    y1: "0%",
+                    x2: "65%",
+                    y2: "0%"
+                }
+            }, [ r("stop", {
+                ref: "def1",
+                class: n.$style[n.color],
+                attrs: {
+                    offset: "0%"
+                }
+            }), r("stop", {
+                ref: "def2",
+                class: n.$style[n.color],
+                attrs: {
+                    offset: "100%",
+                    "stop-opacity": "0"
+                }
+            }) ], 1) ], 1), r("circle", {
+                attrs: {
+                    cx: "100",
+                    cy: "100",
+                    r: "90",
+                    fill: "transparent",
+                    stroke: "url(#" + n.svgId + ")",
+                    "stroke-width": "20"
+                }
+            }) ]), n.text ? r("p", {
+                ref: "text",
+                staticClass: "rf-spinner__text"
+            }, [ n._v(n._s(n.text)) ]) : n._e() ]);
+        }), [], !1, (function(e) {
+            this.$style = l.default.locals || l.default;
+        }), null, null);
+        t.a = a.exports;
+    },
+    "1VDo": function(e, t, n) {
+        "use strict";
+        n.d(t, "a", (function() {
+            return r;
+        }));
+        var o = n("BHX3");
+        function r(e) {
+            var t = {
+                isNameValid: !1,
+                errorMessage: null
+            };
+            return "" === e.trim() || (/[<>]|(&gt;)|(&lt;)/.test(e) ? t.errorMessage = o.default.translate("collection_name_characters_not_allowed", "The following characters are not permitted: < , >") : t.isNameValid = !0), 
+            t;
+        }
+    },
+    "20Oh": function(e, t, n) {
+        "use strict";
+        var o = n("YWVf"), r = n.n(o), l = n("mGku"), i = n("wnPb"), a = l.default.extend({
+            name: "TextInput",
+            components: {
+                BorderAndLabelManager: i.a
+            },
+            data: function() {
+                return {
+                    localValue: this.value,
+                    isFocused: !1
+                };
+            },
+            props: {
+                type: {
+                    type: String,
+                    default: "text",
+                    validator: function(e) {
+                        return /^(text|number|email|password|search|url|tel)$/.test(e);
+                    }
+                },
+                name: {
+                    type: String
+                },
+                label: {
+                    type: String
+                },
+                placeholder: {
+                    type: String
+                },
+                placeholderStyle: {
+                    type: String,
+                    default: "dark",
+                    validator: function(e) {
+                        return "dark" === e || "light" === e;
+                    }
+                },
+                disabled: {
+                    type: Boolean,
+                    default: !1
+                },
+                standalone: {
+                    type: Boolean
+                },
+                readonly: {
+                    type: Boolean,
+                    default: !1
+                },
+                required: {
+                    type: Boolean,
+                    default: !1
+                },
+                autocomplete: {
+                    type: String,
+                    default: "off"
+                },
+                autofocus: {
+                    type: Boolean,
+                    default: !1
+                },
+                maxlength: {
+                    type: Number,
+                    default: -1
+                },
+                minlength: {
+                    type: Number,
+                    default: -1
+                },
+                shimWidth: {
+                    type: Number
+                },
+                errorMessage: {
+                    type: String
+                },
+                errorLayout: {
+                    type: String,
+                    default: "under",
+                    validator: function(e) {
+                        return "under" === e || "over" === e;
+                    }
+                },
+                value: {
+                    type: [ String, Number ],
+                    default: ""
+                },
+                isDark: {
+                    type: Boolean,
+                    default: !1
+                },
+                isErrorMessageFixed: {
+                    type: Boolean,
+                    default: !1
+                },
+                shouldFocus: {
+                    type: Boolean
+                },
+                isForProjectEditor: {
+                    type: Boolean,
+                    default: !1
+                },
+                hasNewLabelStyle: Boolean,
+                customCursorClass: {
+                    type: String
+                },
+                customBorderRadiusClass: {
+                    type: String
+                }
+            },
+            computed: {
+                hasError: function() {
+                    return Boolean(this.errorMessage);
+                },
+                unlabeled: function() {
+                    return !this.label;
+                },
+                shimPadding: function() {
+                    return !!this.shimWidth && String(this.shimWidth + 5) + "px";
+                },
+                shouldShowPlaceholder: function() {
+                    return null === this.localValue || 0 === this.localValue.length;
+                }
+            },
+            mounted: function() {
+                this.isFocused = document.activeElement === this.$refs.input;
+            },
+            watch: {
+                shouldFocus: function(e) {
+                    if (this.autofocus) {
+                        this.isFocused = e;
+                        var t = this.$refs.input;
+                        e ? t.focus() : t.blur();
+                    }
+                },
+                value: function(e) {
+                    this.localValue = e;
+                }
+            },
+            methods: {
+                hasHtml: function(e) {
+                    return r()(e, {
+                        allowedTags: []
+                    }) !== e;
+                },
+                hasClientError: function() {
+                    var e = this.$refs.input.value;
+                    if ("" === e) return "isEmpty";
+                    if (this.hasHtml(e)) return "hasHtml";
+                    var t = -1 === this.minlength ? 3 : this.minlength;
+                    return e.length < t ? "tooShort" : -1 !== this.maxlength && e.length > this.maxlength && "tooLong";
+                },
+                handleKeyupEnter: function() {
+                    var e = this.hasClientError();
+                    e ? this.$emit("hasError", e) : this.$emit("enter", this.$refs.input.value);
+                },
+                focus: function() {
+                    this.$refs.input.focus();
+                },
+                handleInput: function(e) {
+                    this.$emit("input", e.target.value), this.localValue = e.target.value;
+                },
+                handleBlur: function(e) {
+                    this.$emit("blur", e), this.isFocused = !1;
+                }
+            }
+        }), s = n("yfgW"), c = n("K+aO");
+        var d = Object(c.default)(a, (function() {
+            var e, t, n, o, r = this, l = r.$createElement, i = r._self._c || l;
+            return i("div", {
+                ref: "root",
+                class: [ r.$style.textInput, (e = {}, e[r.$style.error] = r.hasError, e[r.$style.errorOver] = "over" === r.errorLayout, 
+                e[r.$style.textInputWithSpace] = !r.standalone, e) ]
+            }, [ i("label", {
+                ref: "label",
+                class: [ r.$style.label, r.customCursorClass ]
+            }, [ !r.hasNewLabelStyle && r.label ? [ r._v(" " + r._s(r.label)) ] : r._e(), i("input", {
+                ref: "input",
+                class: [ r.$style.input, (t = {}, t[r.$style.dark] = r.isDark, t[r.$style.unlabeled] = r.unlabeled, 
+                t[r.$style.disabled] = r.disabled, t[r.$style.inputWithSpace] = !r.standalone, t[r.$style.placeholderLight] = "light" === r.placeholderStyle, 
+                t[r.$style.forProjectEditor] = r.isForProjectEditor, t[r.$style.withNewLabelStyle] = r.hasNewLabelStyle, 
+                t), r.customBorderRadiusClass, "e2e-TextInput-input" ],
+                style: {
+                    "padding-left": r.shimPadding
+                },
+                attrs: {
+                    type: r.type,
+                    name: r.name,
+                    placeholder: r.hasNewLabelStyle ? void 0 : r.placeholder,
+                    disabled: r.disabled,
+                    required: r.required,
+                    maxlength: r.maxlength,
+                    minlength: r.minlength,
+                    autocomplete: r.autocomplete,
+                    readonly: r.readonly,
+                    autofocus: r.autofocus
+                },
+                domProps: {
+                    value: r.localValue
+                },
+                on: {
+                    input: r.handleInput,
+                    blur: r.handleBlur,
+                    focus: function(e) {
+                        r.isFocused = !0;
+                    },
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && r._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : r.handleKeyupEnter(e);
+                    }
+                }
+            }), r.hasNewLabelStyle && r.label ? i("BorderAndLabelManager", {
+                class: [ r.$style.borderManager, (n = {}, n[r.$style.unlabeled] = r.unlabeled, n) ],
+                attrs: {
+                    label: r.label,
+                    isActive: r.isFocused,
+                    shouldShowPlaceholder: r.shouldShowPlaceholder
+                }
+            }) : r._e() ], 2), r.hasError ? i("p", {
+                ref: "errorMessage",
+                class: [ r.$style.errorMessage, (o = {}, o[r.$style.fixed] = r.isErrorMessageFixed, 
+                o) ]
+            }, [ r._v(r._s(r.errorMessage)) ]) : r._e() ]);
+        }), [], !1, (function(e) {
+            this.$style = s.default.locals || s.default;
+        }), null, null);
+        t.a = d.exports;
+    },
+    "2Ix9": function(e, t, n) {
+        "use strict";
+        var o = n("K+aO"), r = Object(o.default)({}, (function() {
+            var e = this.$createElement, t = this._self._c || e;
+            return t("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    viewBox: "0 0 533.333 533.333"
+                }
+            }, [ t("path", {
+                attrs: {
+                    d: "M516.7,200H333.3V16.7c0-9.2-7.5-16.7-16.7-16.7h-100C207.5,0,200,7.5,200,16.7V200H16.7C7.5,200,0,207.5,0,216.7v100\n\tc0,9.2,7.5,16.7,16.7,16.7H200v183.3c0,9.2,7.5,16.7,16.7,16.7h100c9.2,0,16.7-7.5,16.7-16.7V333.3h183.3c9.2,0,16.7-7.5,16.7-16.7\n\tv-100C533.3,207.5,525.9,200,516.7,200z"
+                }
+            }) ]);
+        }), [], !1, null, null, null);
+        t.a = r.exports;
+    },
+    6289: function(e, t, n) {
+        "use strict";
+        var o = n("K+aO"), r = Object(o.default)({}, (function() {
+            var e = this.$createElement, t = this._self._c || e;
+            return t("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    viewBox: "960.186 616.276 170 144"
+                }
+            }, [ t("path", {
+                attrs: {
+                    d: "M1102.077 616.276l-87.46 87.786-26.3-26.322-28.131 28.107 54.695 54.429 115.305-115.613z"
+                }
+            }) ]);
+        }), [], !1, null, null, null);
+        t.a = r.exports;
+    },
+    "8ol5": function(e, t, n) {
+        (t = e.exports = n("RDo7")(!1)).push([ e.i, ".AddToCollectionModal-root-1W_ {\n  cursor: default;\n  z-index: 1004;\n}\n.AddToCollectionModal-modalHeader-1Vt {\n  font-size: 20px;\n  font-weight: bold;\n  text-align: left;\n}\n@media (max-width: 603px) {\n.AddToCollectionModal-modalHeader-1Vt {\n      display: none;\n}\n}\n.AddToCollectionModal-subHeaderMobile-3dN {\n  display: none;\n}\n@media (max-width: 603px) {\n.AddToCollectionModal-subHeaderMobile-3dN {\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-pack: justify;\n              justify-content: space-between;\n      margin-top: 15px;\n}\n}\n.AddToCollectionModal-closeIcon-4yo {\n  display: none;\n}\n@media (max-width: 603px) {\n.AddToCollectionModal-closeIcon-4yo {\n      cursor: pointer;\n      display: block;\n      fill: #191919;\n      height: 13px;\n      margin-top: 7px;\n      opacity: 0.5;\n      width: 13px;\n}\n.AddToCollectionModal-closeIcon-4yo:hover {\n        opacity: 1;\n}\n}\n.AddToCollectionModal-userCollections-3dw {\n  border: 1px solid #e8e8e8;\n  border-radius: 3px;\n  cursor: pointer;\n  height: 327px;\n  margin-bottom: 21px;\n  margin-top: 25px;\n  max-width: 339px;\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n@media (max-width: 603px) {\n.AddToCollectionModal-userCollections-3dw {\n      max-width: 100%;\n}\n}\n.AddToCollectionModal-isCollectionFetching-3qk {\n  -webkit-box-align: center;\n          align-items: center;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n.AddToCollectionModal-noCollection-3Lm {\n  -webkit-box-align: center;\n          align-items: center;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  height: 327px;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n@media (max-width: 603px) {\n.AddToCollectionModal-noCollection-3Lm {\n      padding: 0 30px;\n}\n}\n.AddToCollectionModal-collection-24n {\n  border-bottom: 1px solid #e8e8e8;\n  display: -webkit-box;\n  display: flex;\n  font-size: 15px;\n  height: 60px;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  position: relative;\n}\n.AddToCollectionModal-collection-24n.AddToCollectionModal-scrollableCollectionBorder-2w_:last-child {\n    border-bottom-style: none;\n}\n.AddToCollectionModal-collection-24n:hover {\n    background-color: rgba(0, 77, 255, 0.1);\n    color: #0057ff;\n}\n.AddToCollectionModal-fetchingSpinner-2qY {\n  height: 25px;\n  margin-right: 20px;\n  width: 25px;\n}\n.AddToCollectionModal-collectionSelection-3hn {\n  color: #191919;\n  cursor: pointer;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  padding: 10px;\n  width: 100%;\n}\n.AddToCollectionModal-collectionSelection-3hn:hover {\n    color: #0057ff;\n    text-decoration: none;\n}\n.AddToCollectionModal-selected-TeI .AddToCollectionModal-collectionSelection-3hn {\n    color: #0057ff;\n}\n.AddToCollectionModal-collectionInfo-2pt {\n  -webkit-box-align: center;\n          align-items: center;\n  display: -webkit-box;\n  display: flex;\n  text-align: left;\n  width: 100%;\n}\n.AddToCollectionModal-collectionName-Y3R {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  width: calc(100% - 50px);\n}\n.AddToCollectionModal-collectionCover-1dL {\n  background-color: #696969;\n  height: 40px;\n  margin-right: 12px;\n  position: relative;\n  width: 50px;\n}\n.AddToCollectionModal-collectionCoverImg-4_5 {\n  height: 100%;\n  width: 100%;\n}\n.AddToCollectionModal-collectionCoverImg-4_5.AddToCollectionModal-moduleCollectionCoverImg-WUE {\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n.AddToCollectionModal-coverSelected-1fC {\n  background-color: rgba(0, 77, 255, 0.6);\n  display: none;\n  height: 100%;\n  opacity: 0;\n  position: absolute;\n  top: 0;\n  width: 100%;\n}\n.AddToCollectionModal-selected-TeI .AddToCollectionModal-coverSelected-1fC {\n    -webkit-box-align: center;\n            align-items: center;\n    color: #0057ff;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    opacity: 1;\n    -webkit-transition: 0.5s ease;\n    transition: 0.5s ease;\n}\n.AddToCollectionModal-coverCheck-2ii {\n  fill: #fff;\n  height: 16px;\n  width: 16px;\n}\n.AddToCollectionModal-collectionType-DWr {\n  -webkit-box-align: center;\n          align-items: center;\n  display: -webkit-box;\n  display: flex;\n}\n.AddToCollectionModal-icon-7vq {\n  height: 13px;\n  margin-left: 4px;\n  opacity: 0.42;\n  width: 13px;\n}\n.AddToCollectionModal-formActions-2ZC {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.AddToCollectionModal-addCollection-cSY {\n  -webkit-box-align: center;\n          align-items: center;\n  color: #0057ff;\n  cursor: pointer;\n  display: -webkit-box;\n  display: flex;\n  font-size: 14px;\n  font-weight: bold;\n}\n.AddToCollectionModal-addCollection-cSY:hover {\n    text-decoration: underline;\n}\n.AddToCollectionModal-addButton-1BO {\n  -webkit-box-align: center;\n          align-items: center;\n  background: #0057ff;\n  border-radius: 50%;\n  display: -webkit-inline-box;\n  display: inline-flex;\n  height: 14px;\n  -webkit-box-pack: center;\n          justify-content: center;\n  margin-right: 5px;\n  width: 14px;\n}\n.AddToCollectionModal-addMark-3h8 {\n  fill: #fff;\n  height: 8px;\n  width: 8px;\n}\n.AddToCollectionModal-saveText-1Sf {\n  color: #696969;\n  display: -webkit-box;\n  display: flex;\n  font-size: 13px;\n  padding: 9px 0;\n}\n.AddToCollectionModal-savingSpinner-2cg {\n  height: 14px;\n  margin-right: 15px;\n  width: 14px;\n}\n.AddToCollectionModal-checkIcon-1UV {\n  -webkit-box-align: center;\n          align-items: center;\n  background: #058900;\n  border-radius: 50%;\n  display: -webkit-inline-box;\n  display: inline-flex;\n  height: 14px;\n  -webkit-box-pack: center;\n          justify-content: center;\n  margin: 2px 5px 0 0;\n  width: 14px;\n}\n.AddToCollectionModal-checkMark-1tc {\n  display: block;\n  fill: #fff;\n  height: 6.22px;\n  margin: 0 auto;\n  position: relative;\n  width: 8px;\n}\n.AddToCollectionModal-addFirstCollectionPrompt-3Lk {\n  color: #696969;\n  font-size: 14px;\n  margin: 10px 0 24.5px;\n}\n.AddToCollectionModal-checkBox-Uz8 {\n  display: none;\n}\n", "" ]), 
+        t.locals = {
+            root: "AddToCollectionModal-root-1W_",
+            modalHeader: "AddToCollectionModal-modalHeader-1Vt",
+            subHeaderMobile: "AddToCollectionModal-subHeaderMobile-3dN",
+            closeIcon: "AddToCollectionModal-closeIcon-4yo",
+            userCollections: "AddToCollectionModal-userCollections-3dw",
+            isCollectionFetching: "AddToCollectionModal-isCollectionFetching-3qk",
+            noCollection: "AddToCollectionModal-noCollection-3Lm",
+            collection: "AddToCollectionModal-collection-24n",
+            scrollableCollectionBorder: "AddToCollectionModal-scrollableCollectionBorder-2w_",
+            fetchingSpinner: "AddToCollectionModal-fetchingSpinner-2qY",
+            collectionSelection: "AddToCollectionModal-collectionSelection-3hn",
+            selected: "AddToCollectionModal-selected-TeI",
+            collectionInfo: "AddToCollectionModal-collectionInfo-2pt",
+            collectionName: "AddToCollectionModal-collectionName-Y3R",
+            collectionCover: "AddToCollectionModal-collectionCover-1dL",
+            collectionCoverImg: "AddToCollectionModal-collectionCoverImg-4_5",
+            moduleCollectionCoverImg: "AddToCollectionModal-moduleCollectionCoverImg-WUE",
+            coverSelected: "AddToCollectionModal-coverSelected-1fC",
+            coverCheck: "AddToCollectionModal-coverCheck-2ii",
+            collectionType: "AddToCollectionModal-collectionType-DWr",
+            icon: "AddToCollectionModal-icon-7vq",
+            formActions: "AddToCollectionModal-formActions-2ZC",
+            addCollection: "AddToCollectionModal-addCollection-cSY",
+            addButton: "AddToCollectionModal-addButton-1BO",
+            addMark: "AddToCollectionModal-addMark-3h8",
+            saveText: "AddToCollectionModal-saveText-1Sf",
+            savingSpinner: "AddToCollectionModal-savingSpinner-2cg",
+            checkIcon: "AddToCollectionModal-checkIcon-1UV",
+            checkMark: "AddToCollectionModal-checkMark-1tc",
+            addFirstCollectionPrompt: "AddToCollectionModal-addFirstCollectionPrompt-3Lk",
+            checkBox: "AddToCollectionModal-checkBox-Uz8"
+        };
+    },
+    "9S2P": function(e, t, n) {
+        (t = e.exports = n("RDo7")(!1)).push([ e.i, ".TextInput-textInput-29G {\n  font-size: 13px;\n  position: relative;\n  vertical-align: top;\n}\n.TextInput-textInputWithSpace-2so {\n  margin-bottom: 15px;\n}\n.TextInput-label-1SN {\n  font-family: inherit;\n  font-size: 13px;\n  line-height: 1.3;\n  cursor: pointer;\n  display: block;\n  font-weight: bold;\n}\n.TextInput-input-1ZG {\n  border: 1px solid #ccc;\n  border-radius: 3px;\n  box-sizing: border-box;\n  color: #191919;\n  display: block;\n  font-weight: 600;\n  height: 32px;\n  padding: 4px;\n  padding-left: 10px;\n  width: 100%;\n}\n.TextInput-input-1ZG::-webkit-input-placeholder {\n    color: #707070;\n}\n.TextInput-input-1ZG::-moz-placeholder {\n    color: #707070;\n}\n.TextInput-input-1ZG:-ms-input-placeholder {\n    color: #707070;\n}\n.TextInput-input-1ZG::-ms-input-placeholder {\n    color: #707070;\n}\n.TextInput-input-1ZG::placeholder {\n    color: #707070;\n}\n.TextInput-input-1ZG.TextInput-withNewLabelStyle-1H5 {\n    border: 0;\n}\n.TextInput-input-1ZG.TextInput-placeholderLight-1WL::-webkit-input-placeholder {\n    color: #fff;\n}\n.TextInput-input-1ZG.TextInput-placeholderLight-1WL::-moz-placeholder {\n    color: #fff;\n}\n.TextInput-input-1ZG.TextInput-placeholderLight-1WL:-ms-input-placeholder {\n    color: #fff;\n}\n.TextInput-input-1ZG.TextInput-placeholderLight-1WL::-ms-input-placeholder {\n    color: #fff;\n}\n.TextInput-input-1ZG.TextInput-placeholderLight-1WL::placeholder {\n    color: #fff;\n}\n.TextInput-input-1ZG:hover {\n    border-color: #696969;\n}\n.TextInput-input-1ZG:focus {\n    border-color: #0057ff;\n}\n.TextInput-input-1ZG:focus.focus-visible {\n      outline: none;\n}\n.TextInput-error-1H3 .TextInput-input-1ZG {\n    border-color: #d00;\n}\n.TextInput-input-1ZG.TextInput-disabled-KjM {\n    background: #e8e8e8;\n    color: #959595;\n}\n.TextInput-input-1ZG.TextInput-forProjectEditor-dsA {\n    height: 38px;\n}\n.TextInput-inputWithSpace-33q {\n  margin-top: 8px;\n}\n.TextInput-inputWithSpace-33q.TextInput-unlabeled-1hM {\n    margin-top: 21px;\n}\n.TextInput-errorMessage-3fr {\n  color: #d00;\n  font-size: 12px;\n  font-weight: 600;\n  margin-bottom: 0;\n  margin-top: 5px;\n}\n.TextInput-errorMessage-3fr.TextInput-fixed-3zs {\n    position: absolute;\n}\n.TextInput-textInput-29G.TextInput-errorOver-2A9 {\n  position: relative;\n}\n.TextInput-textInput-29G.TextInput-errorOver-2A9 .TextInput-input-1ZG,\n  .TextInput-textInput-29G.TextInput-errorOver-2A9 .TextInput-input-1ZG.TextInput-unlabeled-1hM {\n    margin-top: 0;\n}\n.TextInput-textInput-29G.TextInput-errorOver-2A9 .TextInput-errorMessage-3fr {\n    bottom: 100%;\n    font-style: normal;\n    margin-bottom: 5px;\n    margin-top: 0;\n    position: absolute;\n}\n.TextInput-dark-FIp {\n  font-family: inherit;\n  font-size: 13px;\n  line-height: 1.3;\n  background: rgba(255, 255, 255, 0.2);\n  border-color: rgba(255, 255, 255, 0.25);\n  color: #fff;\n  min-width: 343px;\n}\n.TextInput-input-1ZG {\n  -webkit-transition: border-color 0.15s linear, color 0.15s linear, background-color 0.15s linear;\n  transition: border-color 0.15s linear, color 0.15s linear, background-color 0.15s linear;\n}\n.TextInput-borderManager-20g {\n  height: 32px;\n  left: 0;\n  top: 0;\n  width: 100%;\n}\n", "" ]), 
+        t.locals = {
+            textInput: "TextInput-textInput-29G",
+            textInputWithSpace: "TextInput-textInputWithSpace-2so",
+            label: "TextInput-label-1SN",
+            input: "TextInput-input-1ZG",
+            withNewLabelStyle: "TextInput-withNewLabelStyle-1H5",
+            placeholderLight: "TextInput-placeholderLight-1WL",
+            error: "TextInput-error-1H3",
+            disabled: "TextInput-disabled-KjM",
+            forProjectEditor: "TextInput-forProjectEditor-dsA",
+            inputWithSpace: "TextInput-inputWithSpace-33q",
+            unlabeled: "TextInput-unlabeled-1hM",
+            errorMessage: "TextInput-errorMessage-3fr",
+            fixed: "TextInput-fixed-3zs",
+            errorOver: "TextInput-errorOver-2A9",
+            dark: "TextInput-dark-FIp",
+            borderManager: "TextInput-borderManager-20g"
+        };
+    },
+    "AhH/": function(e, t, n) {
+        (t = e.exports = n("RDo7")(!1)).push([ e.i, ".rf-spinner__spinner:only-child.Spinner-autofill-2bc {\n  height: 100%;\n  min-height: 100%;\n  min-width: 100%;\n  width: 100%;\n}\n.Spinner-blue-3_W {\n  stop-color: #0057ff;\n}\n.Spinner-white-2Dl {\n  stop-color: #fff;\n}\n.Spinner-standaloneSpinner-25B {\n  height: 35px;\n  width: 35px;\n}\n", "" ]), 
+        t.locals = {
+            autofill: "Spinner-autofill-2bc",
+            blue: "Spinner-blue-3_W",
+            white: "Spinner-white-2Dl",
+            standaloneSpinner: "Spinner-standaloneSpinner-25B"
+        };
+    },
+    BCSj: function(e, t, n) {
+        var o = n("KqaJ");
+        "string" == typeof o && (o = [ [ e.i, o, "" ] ]), o.locals && (e.exports = o.locals);
+        (0, n("DtNa").default)("09ed8918", o, !0, {});
+    },
+    FroP: function(e, t, n) {
+        "use strict";
+        var o = n("eWX8"), r = n.n(o);
+        t.default = r.a;
+    },
+    Fsz8: function(e, t, n) {
+        "use strict";
+        n.r(t);
+        n("1t7P"), n("2G9S"), n("LW0h"), n("jwue"), n("7xRU"), n("6U7i"), n("daRM"), n("FtHn"), 
+        n("+KXO"), n("KqXw"), n("Ysgh"), n("+oxZ");
+        var o = n("IC1n"), r = n.n(o), l = n("2srY"), i = n.n(l), a = n("nOR9"), s = n("ePDi"), c = n("UsrC"), d = n("E8ap"), u = n("mLYF"), p = n("20Oh"), f = n("OQxq"), h = n("LSlr"), b = n("1VDo"), m = {
+            components: {
+                Modal: u.default,
+                TextInput: p.a,
+                Btn: f.default,
+                CloseIcon: h.default
+            },
+            data: function() {
+                return {
+                    collectionName: "",
+                    errorMessage: null,
+                    isNameValid: !1
+                };
+            },
+            props: {
+                isShown: {
+                    type: Boolean,
+                    default: !1
+                },
+                showMobileSubHeader: {
+                    type: Boolean,
+                    default: !1
+                }
+            },
+            computed: {
+                modalTitle: function() {
+                    return this.$translate("project_create_new_moodboard", "Create New Moodboard");
+                }
+            },
+            watch: {
+                collectionName: function(e) {
+                    var t = Object(b.a)(e), n = t.isNameValid, o = t.errorMessage;
+                    this.isNameValid = n, this.errorMessage = o;
+                }
+            },
+            methods: {
+                resetErrorMessage: function() {
+                    this.errorMessage = null;
+                },
+                addNewCollection: function() {
+                    this.isNameValid && (this.$emit("addNewCollection", this.collectionName), this.collectionName = "", 
+                    this.$emit("closeCreateModal"));
+                }
+            }
+        }, g = n("FroP"), x = n("K+aO");
+        var C = Object(x.default)(m, (function() {
+            var e = this, t = e.$createElement, n = e._self._c || t;
+            return n("Modal", {
+                ref: "modal",
+                attrs: {
+                    showModal: e.isShown,
+                    contentStyle: {
+                        minWidth: "430px",
+                        width: "430px"
+                    },
+                    modalTitle: e.modalTitle
+                },
+                on: {
+                    closeModal: function(t) {
+                        return e.$emit("closeCreateModal");
+                    }
+                }
+            }, [ n("div", {
+                class: e.$style.modalHeader
+            }, [ e._v(e._s(e.modalTitle)) ]), e.showMobileSubHeader ? n("div", {
+                ref: "mobileSubHeader",
+                class: [ e.$style.modalHeader, , e.$style.subHeaderMobile ]
+            }, [ e._v(" " + e._s(e.modalTitle) + " "), n("CloseIcon", {
+                class: e.$style.closeIcon,
+                nativeOn: {
+                    click: function(t) {
+                        return e.$emit("closeCreateModal");
+                    }
+                }
+            }) ], 1) : e._e(), n("div", {
+                class: e.$style.formContent
+            }, [ n("TextInput", {
+                ref: "collectionInput",
+                class: [ e.$style.inputField, "e2e-CreateCollectionModal-TextInput-input" ],
+                attrs: {
+                    name: "collection",
+                    type: "text",
+                    placeholder: e.$translate("moodboard_name", "Moodboard Name"),
+                    standalone: !0,
+                    required: !0,
+                    autofocus: !0,
+                    errorMessage: e.errorMessage,
+                    isErrorMessageFixed: !0
+                },
+                on: {
+                    input: e.resetErrorMessage
+                },
+                nativeOn: {
+                    keydown: function(t) {
+                        return !t.type.indexOf("key") && e._k(t.keyCode, "enter", 13, t.key, "Enter") ? null : e.addNewCollection(t);
+                    }
+                },
+                model: {
+                    value: e.collectionName,
+                    callback: function(t) {
+                        e.collectionName = t;
+                    },
+                    expression: "collectionName"
+                }
+            }), n("Btn", {
+                ref: "createBtn",
+                staticClass: "e2e-CreateCollectionModal-addBtn",
+                attrs: {
+                    type: "primary",
+                    disabled: !e.isNameValid
+                },
+                on: {
+                    click: e.addNewCollection
+                }
+            }, [ e._v(e._s(e.$translate("create_new_collection_button", "Create"))) ]) ], 1) ]);
+        }), [], !1, (function(e) {
+            this.$style = g.default.locals || g.default;
+        }), null, null).exports, v = n("2Ix9"), y = n("18mY"), w = n("6289"), I = n("ZbwM"), T = Object(x.default)({}, (function() {
+            var e = this.$createElement, t = this._self._c || e;
+            return t("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    viewBox: "0 0 13 13"
+                }
+            }, [ t("g", [ t("path", {
+                attrs: {
+                    fill: "none",
+                    d: "M0,0V8.73A2.236,2.236,0,0,1,2.234,6.5H5.078A2.233,2.233,0,0,1,7.313,8.734V13H8.938V6.5h1.828A2.234,2.234,0,0,1,13,8.734V0ZM3.656,4.875A1.625,1.625,0,1,1,5.281,3.25,1.625,1.625,0,0,1,3.656,4.875Zm5.281,0A1.625,1.625,0,1,1,10.563,3.25,1.625,1.625,0,0,1,8.938,4.875Z"
+                }
+            }), t("circle", {
+                attrs: {
+                    cx: "1.625",
+                    cy: "1.625",
+                    r: "1.625",
+                    transform: "translate(7.313 1.625)"
+                }
+            }), t("path", {
+                attrs: {
+                    d: "M12.828,8H11v6.5h4.063V10.234A2.234,2.234,0,0,0,12.828,8Z",
+                    transform: "translate(-2.063 -1.5)"
+                }
+            }), t("circle", {
+                attrs: {
+                    cx: "1.625",
+                    cy: "1.625",
+                    r: "1.625",
+                    transform: "translate(2.031 1.625)"
+                }
+            }), t("path", {
+                attrs: {
+                    d: "M7.313,10.234A2.233,2.233,0,0,0,5.078,8H2.234A2.236,2.236,0,0,0,0,10.23V14.5H7.313V10.234Z",
+                    transform: "translate(0 -1.5)"
+                }
+            }) ]) ]);
+        }), [], !1, null, null, null).exports;
+        function M(e, t) {
+            var n = Object.keys(e);
+            if (Object.getOwnPropertySymbols) {
+                var o = Object.getOwnPropertySymbols(e);
+                t && (o = o.filter((function(t) {
+                    return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                }))), n.push.apply(n, o);
+            }
+            return n;
+        }
+        function S(e) {
+            for (var t = 1; t < arguments.length; t++) {
+                var n = null != arguments[t] ? arguments[t] : {};
+                t % 2 ? M(Object(n), !0).forEach((function(t) {
+                    _(e, t, n[t]);
+                })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : M(Object(n)).forEach((function(t) {
+                    Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
+                }));
+            }
+            return e;
+        }
+        function _(e, t, n) {
+            return t in e ? Object.defineProperty(e, t, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[t] = n, e;
+        }
+        var A = {
+            components: {
+                Modal: u.default,
+                CreateCollectionModal: C,
+                Add: v.a,
+                Btn: f.default,
+                Spinner: y.a,
+                Check: w.a,
+                LockIcon: I.a,
+                MultipleUsersIcon: T,
+                CloseIcon: h.default
+            },
+            props: {
+                modalTitle: {
+                    type: String
+                },
+                projectId: {
+                    type: Number
+                },
+                moduleId: {
+                    type: Number
+                },
+                gridItemId: {
+                    type: Number
+                },
+                namespace: {
+                    type: String,
+                    required: !0,
+                    default: "project"
+                },
+                showMobileSubHeader: {
+                    type: Boolean,
+                    default: !1
+                },
+                query: {
+                    type: Object
+                }
+            },
+            data: function() {
+                return {
+                    componentId: r()(),
+                    isCreateCollectionVisible: !1,
+                    isCollectionFetched: !1,
+                    selectedCollectionIds: null,
+                    disableSave: !0,
+                    hideBottomBorder: !1,
+                    namespaceAsArray: this.namespace.split("/").concat("addToCollectionModal"),
+                    hasNewMoodboard: !1
+                };
+            },
+            beforeCreate: function() {
+                var e = this.$options.propsData.namespace.split("/").concat("addToCollectionModal");
+                this.$store.registerModule(e, s.b), this.$store.dispatch(this.$options.propsData.namespace + "/addToCollectionModal/" + s.a.INIT, {
+                    projectId: this.$options.propsData.projectId,
+                    query: this.$options.propsData.query ? this.$options.propsData.query : this.$route.query
+                });
+            },
+            destroyed: function() {
+                this.$store.unregisterModule(this.namespaceAsArray);
+            },
+            computed: S({}, Object(a.mapState)({
+                userCollections: function(e) {
+                    return i()(e, this.getStateKeypath("userCollections"));
+                },
+                initialSelectedIds: function(e) {
+                    return i()(e, this.getStateKeypath("initialSelectedIds"));
+                },
+                isCollectionSaving: function(e) {
+                    return i()(e, this.getStateKeypath("isCollectionSaving"));
+                },
+                isCollectionSaved: function(e) {
+                    return i()(e, this.getStateKeypath("isCollectionSaved"));
+                },
+                selectItem: function() {
+                    return this.moduleId ? {
+                        id: this.moduleId,
+                        type: d.ENTITY_TYPES.MODULE
+                    } : this.gridItemId ? {
+                        id: this.gridItemId,
+                        type: d.ENTITY_TYPES.MEDIA
+                    } : this.projectId ? {
+                        id: this.projectId,
+                        type: d.ENTITY_TYPES.PROJECT
+                    } : void 0;
+                }
+            })),
+            methods: S({}, Object(a.mapActions)({
+                createNewCollection: function(e, t) {
+                    return e(this.namespace + "/addToCollectionModal/" + s.a.COLLECTION_CREATE_CLICK, t);
+                },
+                saveProjectRelatedCollection: function(e, t) {
+                    return e(this.namespace + "/addToCollectionModal/" + s.a.COLLECTION_SAVE_PROJECT_CLICK, t);
+                },
+                updateCollectionsForModule: function(e, t) {
+                    return e(this.namespace + "/addToCollectionModal/" + s.a.COLLECTION_SAVE_MODULE_CLICK, t);
+                },
+                updateMoodboardForGridItem: function(e, t) {
+                    return e(this.namespace + "/addToCollectionModal/" + s.a.MOODBOARD_SAVE_GRID_ITEM_CLICK, t);
+                },
+                selectCollectionIds: function(e, t) {
+                    return e(this.namespace + "/addToCollectionModal/" + s.a.COLLECTION_ID_SELECTED, t);
+                },
+                resetCollection: function(e, t) {
+                    return e(this.namespace + "/addToCollectionModal/" + s.a.COLLECTION_SAVE_CLICK_RESET, t);
+                }
+            }), {
+                saveItem: function() {
+                    return this.moduleId || this.gridItemId ? this.moduleId ? this.saveModule() : this.gridItemId ? this.saveGridItem() : void 0 : this.saveProject();
+                },
+                getStateKeypath: function(e) {
+                    return this.namespace.split("/").concat([ "addToCollectionModal", e ]).join(".");
+                },
+                saveModule: function() {
+                    this.updateCollectionsForModule({
+                        moduleId: this.moduleId
+                    }), this.$emit("savedToCollectionExcept", {
+                        ids: Object(s.c)(this.userCollections),
+                        itemType: d.ENTITY_TYPES.MODULE
+                    }), this.disableSave = !0;
+                },
+                saveGridItem: function() {
+                    this.updateMoodboardForGridItem({
+                        gridItemId: this.gridItemId
+                    }), this.$emit("savedToCollectionExcept", {
+                        ids: Object(s.c)(this.userCollections),
+                        itemType: d.ENTITY_TYPES.MEDIA
+                    }), this.disableSave = !0;
+                },
+                saveProject: function() {
+                    this.saveProjectRelatedCollection({
+                        projectId: this.projectId
+                    }), this.$emit("savedToCollectionExcept", {
+                        ids: Object(s.c)(this.userCollections),
+                        itemType: d.ENTITY_TYPES.PROJECT
+                    }), this.disableSave = !0;
+                },
+                addNewCollection: function(e) {
+                    this.createNewCollection({
+                        collectionName: e
+                    }), this.disableSave = !1, this.hasNewMoodboard = !0;
+                },
+                inputId: function(e) {
+                    return this.componentId + "_" + e;
+                }
+            }),
+            watch: {
+                userCollections: function(e) {
+                    e && (this.isCollectionFetched = !0, e.length >= 6 && (this.hideBottomBorder = !0), 
+                    this.$emit("isCollectionFetched"));
+                },
+                initialSelectedIds: function(e) {
+                    this.selectedCollectionIds = e;
+                },
+                selectedCollectionIds: function(e) {
+                    this.selectCollectionIds(e);
+                },
+                isCollectionSaved: function(e) {
+                    var t = this;
+                    if (e) {
+                        var n = this.userCollections.filter((function(e) {
+                            return e[c.a];
+                        }));
+                        setTimeout((function() {
+                            if (t.$emit("saveCollectionSuccesMessageRead"), t.resetCollection(), t.isCollectionFetched = !1, 
+                            n.length) {
+                                var e = t.hasNewMoodboard ? n[0] : n[n.length - 1];
+                                t.$emit("addedToNewCollection", {
+                                    collection: e,
+                                    item: t.selectItem
+                                });
+                            }
+                            t.hasNewMoodboard = !1;
+                        }), 500);
+                    }
+                }
+            }
+        }, k = n("OtqZ");
+        var O = Object(x.default)(A, (function() {
+            var e = this, t = e.$createElement, n = e._self._c || t;
+            return n("Modal", {
+                ref: "modal",
+                class: [ e.$style.root, "e2e-Project-AddToCollectionModal-modal", "moodboard-add-modal" ],
+                attrs: {
+                    showModal: !0,
+                    contentStyle: {
+                        minWidth: "400px",
+                        width: "400px"
+                    },
+                    modalTitle: e.modalTitle
+                },
+                on: {
+                    closeModal: function(t) {
+                        return e.$emit("closeAddCollectionModal");
+                    }
+                }
+            }, [ n("div", {
+                ref: "modalHeader",
+                class: e.$style.modalHeader
+            }, [ e._v(e._s(e.modalTitle)) ]), e.showMobileSubHeader ? n("div", {
+                ref: "modalHeaderMobileProject",
+                class: [ e.$style.modalHeader, e.$style.subHeaderMobile ]
+            }, [ e._v(" " + e._s(e.modalTitle) + " "), n("CloseIcon", {
+                class: e.$style.closeIcon,
+                nativeOn: {
+                    click: function(t) {
+                        return e.$emit("closeAddCollectionModal");
+                    }
+                }
+            }) ], 1) : e._e(), e.isCollectionFetched ? e.isCollectionFetched && e.userCollections && Boolean(e.userCollections.length) ? n("ul", {
+                ref: "userCollections",
+                class: e.$style.userCollections
+            }, e._l(e.userCollections, (function(t, o) {
+                var r, l;
+                return n("li", {
+                    key: o,
+                    ref: "userCollection",
+                    refInFor: !0,
+                    class: [ "qa-collection-modal-collection-item", "e2e-AddToCollectionModal-userCollection-item", {
+                        "e2e-AddToCollectionModal-item-selectedselected": t.isSelected
+                    }, e.$style.collection, (r = {}, r[e.$style.scrollableCollectionBorder] = e.hideBottomBorder, 
+                    r), (l = {}, l[e.$style.selected] = t.isSelected, l) ]
+                }, [ n("input", {
+                    directives: [ {
+                        name: "model",
+                        rawName: "v-model",
+                        value: e.selectedCollectionIds,
+                        expression: "selectedCollectionIds"
+                    } ],
+                    ref: "userCollectionCheck",
+                    refInFor: !0,
+                    class: e.$style.checkBox,
+                    attrs: {
+                        type: "checkbox",
+                        name: "selectedCollections",
+                        id: e.inputId(o)
+                    },
+                    domProps: {
+                        value: t.id,
+                        checked: Array.isArray(e.selectedCollectionIds) ? e._i(e.selectedCollectionIds, t.id) > -1 : e.selectedCollectionIds
+                    },
+                    on: {
+                        change: [ function(n) {
+                            var o = e.selectedCollectionIds, r = n.target, l = !!r.checked;
+                            if (Array.isArray(o)) {
+                                var i = t.id, a = e._i(o, i);
+                                r.checked ? a < 0 && (e.selectedCollectionIds = o.concat([ i ])) : a > -1 && (e.selectedCollectionIds = o.slice(0, a).concat(o.slice(a + 1)));
+                            } else e.selectedCollectionIds = l;
+                        }, function(t) {
+                            e.disableSave = !1;
+                        } ]
+                    }
+                }), n("label", {
+                    class: e.$style.collectionSelection,
+                    attrs: {
+                        for: e.inputId(o)
+                    }
+                }, [ n("div", {
+                    class: e.$style.collectionInfo
+                }, [ n("div", {
+                    ref: "collectionCover",
+                    refInFor: !0,
+                    class: e.$style.collectionCover
+                }, [ [ t.items && t.items.nodes && Boolean(t.items.nodes.length) ? n("img", {
+                    ref: "coverImage",
+                    refInFor: !0,
+                    class: [ e.$style.collectionCoverImg, e.$style.moduleCollectionCoverImg ],
+                    attrs: {
+                        src: t.items.nodes[0].images.size_disp && t.items.nodes[0].images.size_disp.url || t.items.nodes[0].images.size_115 && t.items.nodes[0].images.size_115.url
+                    }
+                }) : e._e() ], n("div", {
+                    class: e.$style.coverSelected
+                }, [ n("Check", {
+                    class: e.$style.coverCheck
+                }) ], 1) ], 2), n("div", {
+                    ref: "collectionName",
+                    refInFor: !0,
+                    class: [ e.$style.collectionName, "e2e-AddToCollectionModal-collectionName" ]
+                }, [ e._v(e._s(t.label)) ]) ]), n("div", {
+                    ref: "collectionType",
+                    refInFor: !0,
+                    class: e.$style.collectionType
+                }, [ "private" === t.privacy ? n("LockIcon", {
+                    ref: "privacyLock",
+                    refInFor: !0,
+                    class: [ e.$style.privacyLock, e.$style.icon ]
+                }) : e._e(), t.owners && t.owners.length > 1 ? n("MultipleUsersIcon", {
+                    ref: "multipleOwners",
+                    refInFor: !0,
+                    class: [ e.$style.multipleOwners, e.$style.icon ]
+                }) : e._e() ], 1) ]) ]);
+            })), 0) : n("div", {
+                ref: "noUserCollections",
+                class: [ e.$style.userCollections, e.$style.noCollection ]
+            }, [ n("h3", [ e._v(e._s(e.$translate("project_start_first_moodboard", "Start Your First Moodboard"))) ]), n("p", {
+                class: e.$style.addFirstCollectionPrompt
+            }, [ e._v(" " + e._s(e.$translate("project_moodboard_benefits", "Use moodboards to save projects for research, inspiration or just because you love them.")) + " ") ]), n("Btn", {
+                ref: "createFirstCollectionBtn",
+                class: [ e.$style.saveBtn, "e2e-AddToCollectionModal-create" ],
+                attrs: {
+                    type: "primary"
+                },
+                on: {
+                    click: function(t) {
+                        e.isCreateCollectionVisible = !0;
+                    }
+                }
+            }, [ e._v(e._s(e.$translate("project_moodboard_create", "Create Moodboard"))) ]) ], 1) : n("div", {
+                class: [ e.$style.userCollections, e.$style.isCollectionFetching ]
+            }, [ n("Spinner", {
+                ref: "fetchingSpinner",
+                class: e.$style.fetchingSpinner,
+                attrs: {
+                    autofill: !0,
+                    color: "blue"
+                }
+            }) ], 1), n("div", {
+                class: e.$style.formActions
+            }, [ n("div", {
+                ref: "addCollectionButton",
+                class: [ e.$style.addCollection, "e2e-AddToCollectionModal-addCollection-btn" ],
+                on: {
+                    click: function(t) {
+                        e.isCreateCollectionVisible = !0;
+                    }
+                }
+            }, [ n("a", {
+                class: e.$style.addButton
+            }, [ n("Add", {
+                ref: "addMark",
+                class: e.$style.addMark
+            }) ], 1), e._v(" " + e._s(e.$translate("new_moodboard", "New Moodboard")) + " ") ]), n("div", {
+                ref: "addActionBtn",
+                class: e.$style.createActionBtn
+            }, [ e.isCollectionSaving || e.isCollectionSaved ? e._e() : n("Btn", {
+                ref: "saveBtn",
+                class: [ e.$style.saveBtn, "e2e-AddToCollectionModal-saveBtn" ],
+                attrs: {
+                    type: "primary",
+                    disabled: e.disableSave
+                },
+                on: {
+                    click: function(t) {
+                        return e.saveItem();
+                    }
+                }
+            }, [ e._v(e._s(e.$translate("project_collection_save", "Save"))) ]), e.isCollectionSaving ? n("div", {
+                ref: "savingButton",
+                class: e.$style.saveText
+            }, [ n("Spinner", {
+                ref: "savingSpinner",
+                class: e.$style.savingSpinner,
+                attrs: {
+                    slot: "leadingIcon",
+                    autofill: !0,
+                    color: "blue"
+                },
+                slot: "leadingIcon"
+            }), e._v(" " + e._s(e.$translate("project_collection_saving", "Saving...")) + " ") ], 1) : e._e(), !e.isCollectionSaving && e.isCollectionSaved ? n("div", {
+                ref: "savedButton",
+                class: e.$style.saveText
+            }, [ n("div", {
+                class: e.$style.checkIcon
+            }, [ n("Check", {
+                ref: "checkMark",
+                class: e.$style.checkMark
+            }) ], 1), e._v(" " + e._s(e.$translate("project_collection_saved", "Saved")) + " ") ]) : e._e() ], 1) ]), n("CreateCollectionModal", {
+                ref: "createCollectionModal",
+                staticClass: "e2e-AddToCollectionModal-create-modal",
+                attrs: {
+                    isShown: e.isCreateCollectionVisible,
+                    showMobileSubHeader: e.showMobileSubHeader
+                },
+                on: {
+                    closeCreateModal: function(t) {
+                        e.isCreateCollectionVisible = !1;
+                    },
+                    addNewCollection: function(t) {
+                        return e.addNewCollection(t);
+                    }
+                }
+            }) ], 1);
+        }), [], !1, (function(e) {
+            this.$style = k.default.locals || k.default;
+        }), null, null);
+        t.default = O.exports;
+    },
+    H7jL: function(e, t, n) {
+        "use strict";
+        function o(e, t) {
+            return e[t] = !0, e;
+        }
+        e.exports = function(e) {
+            return e.reduce(o, {});
+        };
+    },
+    HhHV: function(e, t, n) {
+        "use strict";
+        e.exports = {
+            allowedAttributes: {
+                a: [ "href", "name", "target", "title", "aria-label" ],
+                iframe: [ "allowfullscreen", "frameborder", "src" ],
+                img: [ "src", "alt", "title", "aria-label" ]
+            },
+            allowedClasses: {},
+            allowedSchemes: [ "http", "https", "mailto" ],
+            allowedTags: [ "a", "abbr", "article", "b", "blockquote", "br", "caption", "code", "del", "details", "div", "em", "h1", "h2", "h3", "h4", "h5", "h6", "hr", "i", "img", "ins", "kbd", "li", "main", "mark", "ol", "p", "pre", "section", "span", "strike", "strong", "sub", "summary", "sup", "table", "tbody", "td", "th", "thead", "tr", "u", "ul" ],
+            filter: null
+        };
+    },
+    JdLw: function(e, t, n) {
+        (t = e.exports = n("RDo7")(!1)).push([ e.i, ".CreateCollectionModal-modalHeader-mOZ {\n  font-size: 20px;\n  font-weight: bold;\n  padding-bottom: 13px;\n  text-align: left;\n}\n@media (max-width: 603px) {\n.CreateCollectionModal-modalHeader-mOZ {\n      display: none;\n}\n}\n.CreateCollectionModal-subHeaderMobile-1Fx {\n  display: none;\n}\n@media (max-width: 603px) {\n.CreateCollectionModal-subHeaderMobile-1Fx {\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-pack: justify;\n              justify-content: space-between;\n      margin-top: 5px;\n}\n}\n.CreateCollectionModal-closeIcon-3yr {\n  display: none;\n}\n@media (max-width: 603px) {\n.CreateCollectionModal-closeIcon-3yr {\n      cursor: pointer;\n      display: block;\n      fill: #191919;\n      height: 13px;\n      margin-top: 7px;\n      width: 13px;\n}\n}\n.CreateCollectionModal-formContent-2So {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.CreateCollectionModal-inputField-2E6 {\n  max-width: 278px;\n  width: 100%;\n}\n@media (max-width: 603px) {\n.CreateCollectionModal-inputField-2E6 {\n      padding-right: 20px;\n}\n}\n", "" ]), 
+        t.locals = {
+            modalHeader: "CreateCollectionModal-modalHeader-mOZ",
+            subHeaderMobile: "CreateCollectionModal-subHeaderMobile-1Fx",
+            closeIcon: "CreateCollectionModal-closeIcon-3yr",
+            formContent: "CreateCollectionModal-formContent-2So",
+            inputField: "CreateCollectionModal-inputField-2E6"
+        };
+    },
+    "KXS/": function(e, t, n) {
+        "use strict";
+        e.exports = function e(t) {
+            for (var n, o, r = Array.prototype.slice.call(arguments, 1); r.length; ) for (o in n = r.shift()) n.hasOwnProperty(o) && ("[object Object]" === Object.prototype.toString.call(t[o]) ? t[o] = e(t[o], n[o]) : t[o] = n[o]);
+            return t;
+        };
+    },
+    KqaJ: function(e, t, n) {
+        (t = e.exports = n("RDo7")(!1)).push([ e.i, ".BorderAndLabelManager-control-1Q8 {\n  cursor: pointer;\n  height: 100%;\n  position: absolute;\n}\n.BorderAndLabelManager-control-1Q8::before {\n    background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), color-stop(70%, white));\n    background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, white 70%);\n    content: '';\n    height: 100%;\n    position: absolute;\n    width: 100px;\n    z-index: 1;\n}\n.BorderAndLabelManager-control-1Q8.BorderAndLabelManager-prev-1yt::before {\n    left: 0;\n}\n.BorderAndLabelManager-control-1Q8.BorderAndLabelManager-next-3px::before {\n    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(70%, white));\n    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 70%);\n    right: -3px;\n}\n.BorderAndLabelManager-control-1Q8:active .BorderAndLabelManager-arrow-3Rw {\n    background-color: #e4e4e4;\n    fill: #191919;\n}\n.no-has-touch .BorderAndLabelManager-control-1Q8:hover .BorderAndLabelManager-arrow-3Rw {\n    background-color: #f1f1f1;\n    fill: #191919;\n}\n.BorderAndLabelManager-prev-1yt {\n  left: 0;\n}\n.BorderAndLabelManager-next-3px {\n  right: 3px;\n  width: 100px;\n}\n.BorderAndLabelManager-arrow-3Rw {\n  -webkit-box-align: center;\n          align-items: center;\n  background-color: #fff;\n  border-radius: 50%;\n  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.16);\n  display: -webkit-box;\n  display: flex;\n  fill: #959595;\n  height: 34px;\n  -webkit-box-pack: center;\n          justify-content: center;\n  margin-top: 4px;\n  padding-left: 2px;\n  position: absolute;\n  top: 34%;\n  -webkit-transition: background-color 0.15s linear;\n  transition: background-color 0.15s linear;\n  width: 34px;\n  z-index: 1;\n}\n.BorderAndLabelManager-prev-1yt .BorderAndLabelManager-arrow-3Rw {\n    margin-left: 2px;\n    -webkit-transform: rotate(180deg);\n            transform: rotate(180deg);\n}\n.BorderAndLabelManager-next-3px .BorderAndLabelManager-arrow-3Rw {\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);\n    right: 0;\n}\n.BorderAndLabelManager-navArrow-30B {\n  height: 17px;\n  width: 11px;\n}\n.BorderAndLabelManager-borderContainer-AYl {\n  display: -webkit-box;\n  display: flex;\n  pointer-events: none;\n  position: absolute;\n}\n.BorderAndLabelManager-borderContainer-AYl.BorderAndLabelManager-isActive-1he .BorderAndLabelManager-border-zj1 {\n    border-color: #0057ff;\n}\n.BorderAndLabelManager-border-zj1 {\n  border-color: #e8e8e8;\n  border-width: 1px;\n  -webkit-transition: border-color 0.2s linear;\n  transition: border-color 0.2s linear;\n}\n.BorderAndLabelManager-leading-3OC {\n  border-bottom-style: solid;\n  border-left-style: solid;\n  border-radius: 4px 0 0 4px;\n  border-top-style: solid;\n  width: 7px;\n}\n.BorderAndLabelManager-notch-25t {\n  -webkit-box-align: center;\n          align-items: center;\n  border-bottom-style: solid;\n  border-top-style: solid;\n  display: -webkit-box;\n  display: flex;\n  white-space: nowrap;\n}\n.BorderAndLabelManager-margin-3Bw {\n  border-bottom-style: solid;\n  border-top-style: solid;\n  width: 3px;\n}\n.BorderAndLabelManager-floated-1Gv {\n  border-top-style: none;\n}\n.BorderAndLabelManager-trailing-1lL {\n  border-bottom-style: solid;\n  border-radius: 0 4px 4px 0;\n  border-right-style: solid;\n  border-top-style: solid;\n  -webkit-box-flex: 1;\n          flex-grow: 1;\n  min-width: 4px;\n}\n.BorderAndLabelManager-filterLabel-12q {\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  color: #959595;\n  font-size: 13px;\n  font-weight: 600;\n  -webkit-transform-origin: left;\n          transform-origin: left;\n  -webkit-transition: color 0.2s linear, -webkit-transform 0.2s cubic-bezier(0.19, 1, 0.22, 1);\n  transition: color 0.2s linear, -webkit-transform 0.2s cubic-bezier(0.19, 1, 0.22, 1);\n  transition: transform 0.2s cubic-bezier(0.19, 1, 0.22, 1), color 0.2s linear;\n  transition: transform 0.2s cubic-bezier(0.19, 1, 0.22, 1), color 0.2s linear, -webkit-transform 0.2s cubic-bezier(0.19, 1, 0.22, 1);\n  will-change: transform;\n}\n.BorderAndLabelManager-isFloated-35g .BorderAndLabelManager-filterLabel-12q {\n  color: #707070;\n  font-weight: bold;\n  padding-top: 3px;\n}\n.BorderAndLabelManager-isActive-1he .BorderAndLabelManager-filterLabel-12q {\n  color: #0057ff;\n  font-weight: bold;\n}\n", "" ]), 
+        t.locals = {
+            control: "BorderAndLabelManager-control-1Q8",
+            prev: "BorderAndLabelManager-prev-1yt",
+            next: "BorderAndLabelManager-next-3px",
+            arrow: "BorderAndLabelManager-arrow-3Rw",
+            navArrow: "BorderAndLabelManager-navArrow-30B",
+            borderContainer: "BorderAndLabelManager-borderContainer-AYl",
+            isActive: "BorderAndLabelManager-isActive-1he",
+            border: "BorderAndLabelManager-border-zj1",
+            leading: "BorderAndLabelManager-leading-3OC",
+            notch: "BorderAndLabelManager-notch-25t",
+            margin: "BorderAndLabelManager-margin-3Bw",
+            floated: "BorderAndLabelManager-floated-1Gv",
+            trailing: "BorderAndLabelManager-trailing-1lL",
+            filterLabel: "BorderAndLabelManager-filterLabel-12q",
+            isFloated: "BorderAndLabelManager-isFloated-35g"
+        };
+    },
+    Nfs8: function(e, t, n) {
+        "use strict";
+        var o = n("BCSj"), r = n.n(o);
+        t.default = r.a;
+    },
+    OdXY: function(e, t, n) {
+        "use strict";
+        e.exports = function(e) {
+            return "string" == typeof e ? e.toLowerCase() : e;
+        };
+    },
+    OtqZ: function(e, t, n) {
+        "use strict";
+        var o = n("e8Zj"), r = n.n(o);
+        t.default = r.a;
+    },
+    Pafc: function(e, t, n) {
+        "use strict";
+        var o = n("H7jL");
+        e.exports = {
+            uris: o([ "background", "base", "cite", "href", "longdesc", "src", "usemap" ])
+        };
+    },
+    RFFd: function(e, t, n) {
+        "use strict";
+        var o = n("W+W9"), r = n("OdXY"), l = (n("Pafc"), n("hu0r")), i = /^<\s*([\w:-]+)((?:\s+[\w:-]+(?:\s*=\s*(?:(?:"[^"]*")|(?:'[^']*')|[^>\s]+))?)*)\s*(\/?)\s*>/, a = /^<\s*\/\s*([\w:-]+)[^>]*>/, s = /([\w:-]+)(?:\s*=\s*(?:(?:"((?:[^"])*)")|(?:'((?:[^'])*)')|([^>\s]+)))?/g, c = /^</, d = /^<\s*\//;
+        e.exports = function(e, t) {
+            for (var n, u = function() {
+                var e = [];
+                return e.lastItem = function() {
+                    return e[e.length - 1];
+                }, e;
+            }(), p = e; e; ) f();
+            function f() {
+                n = !0, function() {
+                    "\x3c!--" === e.substr(0, 4) ? (o = e.indexOf("--\x3e")) >= 0 && (t.comment && t.comment(e.substring(4, o)), 
+                    e = e.substring(o + 3), n = !1) : d.test(e) ? h(a, m) : c.test(e) && h(i, b);
+                    var o;
+                    !function() {
+                        if (!n) return;
+                        var o, r = e.indexOf("<");
+                        r >= 0 ? (o = e.substring(0, r), e = e.substring(r)) : (o = e, e = "");
+                        t.chars && t.chars(o);
+                    }();
+                }();
+                var o = e === p;
+                p = e, o && (e = "");
+            }
+            function h(t, o) {
+                var r = e.match(t);
+                r && (e = e.substring(r[0].length), r[0].replace(t, o), n = !1);
+            }
+            function b(e, n, i, a) {
+                var c = {}, d = r(n), p = l.voids[d] || !!a;
+                i.replace(s, (function(e, t, n, r, l) {
+                    c[t] = void 0 === n && void 0 === r && void 0 === l ? void 0 : o.decode(n || r || l || "");
+                })), p || u.push(d), t.start && t.start(d, c, p);
+            }
+            function m(e, n) {
+                var o, l = 0, i = r(n);
+                if (i) for (l = u.length - 1; l >= 0 && u[l] !== i; l--) ;
+                if (l >= 0) {
+                    for (o = u.length - 1; o >= l; o--) t.end && t.end(u[o]);
+                    u.length = l;
+                }
+            }
+            m();
+        };
+    },
+    UCvb: function(e, t, n) {
+        e.exports = n("ydjK")("UCvb");
+    },
+    UsrC: function(e, t, n) {
+        "use strict";
+        n.d(t, "b", (function() {
+            return o;
+        })), n.d(t, "a", (function() {
+            return r;
+        }));
+        var o = {
+            GRID: "media_collection",
+            IMAGE: "image",
+            TEXT: "text"
+        }, r = "isSelected";
+    },
+    "W+W9": function(e, t, n) {
+        "use strict";
+        var o = {
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;"
+        }, r = {
+            "&amp;": "&",
+            "&lt;": "<",
+            "&gt;": ">",
+            "&quot;": '"',
+            "&#39;": "'"
+        }, l = /(&amp;|&lt;|&gt;|&quot;|&#39;)/g, i = /[&<>"']/g;
+        function a(e) {
+            return o[e];
+        }
+        function s(e) {
+            return r[e];
+        }
+        function c(e) {
+            return null == e ? "" : String(e).replace(i, a);
+        }
+        function d(e) {
+            return null == e ? "" : String(e).replace(l, s);
+        }
+        c.options = d.options = {}, e.exports = {
+            encode: c,
+            escape: c,
+            decode: d,
+            unescape: d,
+            version: "1.0.0-browser"
+        };
+    },
+    YWVf: function(e, t, n) {
+        "use strict";
+        n("W+W9");
+        var o = n("KXS/"), r = n("RFFd"), l = n("bCdr"), i = n("HhHV");
+        function a(e, t, n) {
+            var a = [], s = !0 === n ? t : o({}, i, t), c = l(a, s);
+            return r(e, c), a.join("");
+        }
+        a.defaults = i, e.exports = a;
+    },
+    YlXL: function(e, t, n) {
+        var o = n("9S2P");
+        "string" == typeof o && (o = [ [ e.i, o, "" ] ]), o.locals && (e.exports = o.locals);
+        (0, n("DtNa").default)("0d4fcdab", o, !0, {});
+    },
+    ZbwM: function(e, t, n) {
+        "use strict";
+        var o = n("K+aO"), r = Object(o.default)({}, (function() {
+            var e = this.$createElement, t = this._self._c || e;
+            return t("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "16",
+                    height: "16",
+                    viewBox: "0 0 16 16"
+                }
+            }, [ t("path", {
+                attrs: {
+                    fill: "none",
+                    d: "M0 0v16h16V0H0zm14 15H2V7h2V5c0-2.21 1.79-4 4-4s4 1.79 4 4v2h2v8z"
+                }
+            }), t("path", {
+                attrs: {
+                    fill: "none",
+                    d: "M8 3c-1.104 0-2 .895-2 2v2h4V5c0-1.105-.896-2-2-2z"
+                }
+            }), t("path", {
+                attrs: {
+                    d: "M12 5c0-2.21-1.79-4-4-4S4 2.79 4 5v2H2v8h12V7h-2V5zm-2 2H6V5c0-1.105.896-2 2-2s2 .895 2 2v2z"
+                }
+            }) ]);
+        }), [], !1, null, null, null);
+        t.a = r.exports;
+    },
+    ayNN: function(e, t, n) {
+        "use strict";
+        var o = n("xWxV"), r = n.n(o);
+        t.default = r.a;
+    },
+    bCdr: function(e, t, n) {
+        "use strict";
+        var o = n("W+W9"), r = n("OdXY"), l = n("Pafc"), i = n("hu0r");
+        e.exports = function(e, t) {
+            var n, a = t || {};
+            return u(), {
+                start: function(e, t, i) {
+                    var d = r(e);
+                    if (n.ignoring) return void c(d);
+                    if (-1 === (a.allowedTags || []).indexOf(d)) return void c(d);
+                    if (a.filter && !a.filter({
+                        tag: d,
+                        attrs: t
+                    })) return void c(d);
+                    s("<"), s(d), Object.keys(t).forEach((function(e) {
+                        var n = t[e], i = (a.allowedClasses || {})[d] || [], c = (a.allowedAttributes || {})[d] || [], u = r(e);
+                        ("class" === u && -1 === c.indexOf(u) ? (n = n.split(" ").filter((function(e) {
+                            return i && -1 !== i.indexOf(e);
+                        })).join(" ").trim()).length : -1 !== c.indexOf(u) && (!0 !== l.uris[u] || function(e) {
+                            var t = e[0];
+                            if ("#" === t || "/" === t) return !0;
+                            var n = e.indexOf(":");
+                            if (-1 === n) return !0;
+                            var o = e.indexOf("?");
+                            if (-1 !== o && n > o) return !0;
+                            var r = e.indexOf("#");
+                            return -1 !== r && n > r || a.allowedSchemes.some(l);
+                            function l(t) {
+                                return 0 === e.indexOf(t + ":");
+                            }
+                        }(n))) && (s(" "), s(e), "string" == typeof n && (s('="'), s(o.encode(n)), s('"')));
+                    })), s(i ? "/>" : ">");
+                },
+                end: function(e) {
+                    var t = r(e);
+                    -1 !== (a.allowedTags || []).indexOf(t) && !1 === n.ignoring ? (s("</"), s(t), s(">")) : d(t);
+                },
+                chars: function(e) {
+                    !1 === n.ignoring && s(a.transformText ? a.transformText(e) : e);
+                }
+            };
+            function s(t) {
+                e.push(t);
+            }
+            function c(e) {
+                i.voids[e] || (!1 === n.ignoring ? n = {
+                    ignoring: e,
+                    depth: 1
+                } : n.ignoring === e && n.depth++);
+            }
+            function d(e) {
+                n.ignoring === e && --n.depth <= 0 && u();
+            }
+            function u() {
+                n = {
+                    ignoring: !1,
+                    depth: 0
+                };
+            }
+        };
+    },
+    dHpX: function(e, t, n) {
+        "use strict";
+        n("lTEL"), n("z84I"), n("M+/F"), n("7x/C"), n("JtPf"), n("87if"), n("kYxP"), n("3yYM");
+        var o = n("gt27"), r = n("UCvb"), l = n("19SN");
+        function i() {
+            var e = s([ "\n        query GetAddCollectionsModal($contains: MoodboardContains) {\n          viewer {\n            contains: moodboards(contains: $contains) {\n              nodes {\n                id\n              }\n            }\n            moodboards {\n              nodes {\n                privacy\n                owners {\n                  username\n                }\n                id\n                label\n                url\n                modifiedOn\n                items(first: 1) {\n                  nodes {\n                    images: sizes {\n                      ... on ProjectModuleImageSizes {\n                        size_disp {\n                          url\n                        }\n                      }\n                      ... on ProjectCoverImageSizes {\n                        size_original {\n                          url\n                        }\n                        size_115 {\n                          url\n                        }\n                        size_404 {\n                          url\n                        }\n                        size_808 {\n                          url\n                        }\n                        size_max_808 {\n                          url\n                        }\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      " ]);
+            return i = function() {
+                return e;
+            }, e;
+        }
+        function a() {
+            var e = s([ "\n      mutation blockUsersWithUserId($blockeeUserId: Int) {\n        blockUser(blockeeUserId: $blockeeUserId) {\n          id\n        }\n      }\n    " ]);
+            return a = function() {
+                return e;
+            }, e;
+        }
+        function s(e, t) {
+            return t || (t = e.slice(0)), e.raw = t, e;
+        }
+        function c(e, t, n, o, r, l, i) {
+            try {
+                var a = e[l](i), s = a.value;
+            } catch (e) {
+                return void n(e);
+            }
+            a.done ? t(s) : Promise.resolve(s).then(o, r);
+        }
+        function d(e) {
+            return function() {
+                var t = this, n = arguments;
+                return new Promise((function(o, r) {
+                    var l = e.apply(t, n);
+                    function i(e) {
+                        c(l, o, r, i, a, "next", e);
+                    }
+                    function a(e) {
+                        c(l, o, r, i, a, "throw", e);
+                    }
+                    i(void 0);
+                }));
+            };
+        }
+        t.a = {
+            submitForMatureReview: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            return t.abrupt("return", Object(o.default)({
+                                url: "/v2/project/editor/mature_content_review",
+                                type: "POST",
+                                data: {
+                                    project_id: e
+                                }
+                            }));
+
+                          case 1:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            getGallery: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            return t.next = 2, Object(o.default)({
+                                url: e
+                            });
+
+                          case 2:
+                            return t.abrupt("return", t.sent);
+
+                          case 3:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            getUser: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            if (e) {
+                                t.next = 2;
+                                break;
+                            }
+                            return t.abrupt("return");
+
+                          case 2:
+                            return t.next = 4, Object(o.default)({
+                                url: "/v2/users/" + e
+                            });
+
+                          case 4:
+                            return t.abrupt("return", t.sent.user);
+
+                          case 5:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            getUserMiniprofile: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            return t.next = 2, Object(o.default)({
+                                url: "/v2/users/" + e,
+                                type: "GET",
+                                data: {
+                                    format: "mini",
+                                    client_id: window.adobeid.client_id
+                                }
+                            });
+
+                          case 2:
+                            return t.abrupt("return", t.sent.user);
+
+                          case 3:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            markViewed: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            if (r.default.isEnabled()) {
+                                t.next = 2;
+                                break;
+                            }
+                            return t.abrupt("return");
+
+                          case 2:
+                            return t.next = 4, Object(o.default)({
+                                url: "/v2/projects/" + e + "/view",
+                                type: "POST"
+                            });
+
+                          case 4:
+                            return t.abrupt("return", t.sent);
+
+                          case 5:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            appreciate: function(e) {
+                return Object(o.default)({
+                    type: "POST",
+                    url: "/v2/projects/" + e + "/appreciate"
+                });
+            },
+            unappreciate: function(e) {
+                return Object(o.default)({
+                    type: "DELETE",
+                    url: "/v2/projects/" + e + "/appreciate"
+                });
+            },
+            pulseViewed: function(e) {
+                var t = e.from;
+                return d(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.next = 2, Object(o.default)({
+                                url: "/v2/users/me/flags/" + t + "_pulse_point",
+                                type: "POST"
+                            });
+
+                          case 2:
+                            return e.abrupt("return", e.sent);
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            },
+            createCollection: function(e) {
+                var t = e.collectionName;
+                return d(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.next = 2, Object(o.default)({
+                                type: "POST",
+                                url: "/v2/collections",
+                                data: {
+                                    title: t
+                                }
+                            });
+
+                          case 2:
+                            return e.abrupt("return", e.sent);
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            },
+            updateCollection: function(e) {
+                var t = e.projectId, n = e.projectCollectionIds;
+                return Object(o.default)({
+                    type: "POST",
+                    url: "/collection/project/" + t,
+                    data: {
+                        collection_ids: n
+                    }
+                });
+            },
+            saveModuleToCollection: function(e) {
+                var t = e.collectionIdsToSave, n = e.moduleId;
+                return d(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.next = 2, Promise.all(t.map((function(e) {
+                                return Object(o.default)({
+                                    type: "POST",
+                                    url: "/v2/collections/" + e + "/modules/" + n
+                                });
+                            })));
+
+                          case 2:
+                            return e.abrupt("return", e.sent);
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            },
+            deleteModuleFromCollection: function(e) {
+                var t = e.collectionIdsToRemove, n = e.moduleId;
+                return d(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.next = 2, Promise.all(t.map((function(e) {
+                                return Object(o.default)({
+                                    type: "DELETE",
+                                    url: "/v2/collections/" + e + "/modules/" + n
+                                });
+                            })));
+
+                          case 2:
+                            return e.abrupt("return", e.sent);
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            },
+            saveGridItemToMoodboard: function(e) {
+                var t = e.collectionIdsToSave, n = e.gridItemId;
+                return d(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.next = 2, Promise.all(t.map((function(e) {
+                                return Object(o.default)({
+                                    type: "POST",
+                                    url: "/v2/collections/" + e + "/griditems/" + n
+                                });
+                            })));
+
+                          case 2:
+                            return e.abrupt("return", e.sent);
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            },
+            deleteGridItemFromMoodboard: function(e) {
+                var t = e.collectionIdsToRemove, n = e.gridItemId;
+                return d(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.next = 2, Promise.all(t.map((function(e) {
+                                return Object(o.default)({
+                                    type: "DELETE",
+                                    url: "/v2/collections/" + e + "/griditems/" + n
+                                });
+                            })));
+
+                          case 2:
+                            return e.abrupt("return", e.sent);
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            },
+            removeCredit: function(e) {
+                var t = e.projectId, n = e.userId;
+                return Object(o.default)({
+                    url: "/v2/projects/" + t + "/credits/" + n,
+                    type: "DELETE"
+                });
+            },
+            reportProject: function(e) {
+                var t = e.reason, n = e.message, r = e.projectId;
+                return d(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.next = 2, Object(o.default)({
+                                type: "POST",
+                                url: "/v2/report/project/" + r,
+                                data: {
+                                    reason: t,
+                                    message: n
+                                }
+                            });
+
+                          case 2:
+                            return e.abrupt("return", e.sent);
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            },
+            takedownModuleImage: function(e, t) {
+                return d(regeneratorRuntime.mark((function n() {
+                    return regeneratorRuntime.wrap((function(n) {
+                        for (;;) switch (n.prev = n.next) {
+                          case 0:
+                            return n.next = 2, Object(o.default)({
+                                url: "/a/moderation/project__module_takedowns/" + e + "/" + t,
+                                type: "POST"
+                            });
+
+                          case 2:
+                            return n.abrupt("return", n.sent);
+
+                          case 3:
+                          case "end":
+                            return n.stop();
+                        }
+                    }), n);
+                })))();
+            },
+            restoreModuleImage: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            return t.next = 2, Object(o.default)({
+                                url: "/a/moderation/project__module_takedowns/" + e,
+                                type: "DELETE"
+                            });
+
+                          case 2:
+                            return t.abrupt("return", t.sent);
+
+                          case 3:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            invalidateCdnModuleImage: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            return t.next = 2, Object(o.default)({
+                                url: "/a/moderation/project__module_clear_cdn/" + e,
+                                type: "DELETE"
+                            });
+
+                          case 2:
+                            return t.abrupt("return", t.sent);
+
+                          case 3:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            blockUser: function(e) {
+                return d(regeneratorRuntime.mark((function t() {
+                    var n;
+                    return regeneratorRuntime.wrap((function(t) {
+                        for (;;) switch (t.prev = t.next) {
+                          case 0:
+                            return n = Object(l.a)(a()), t.next = 3, Object(l.b)({
+                                query: n,
+                                variables: {
+                                    blockeeUserId: e
+                                }
+                            });
+
+                          case 3:
+                          case "end":
+                            return t.stop();
+                        }
+                    }), t);
+                })))();
+            },
+            getCollectionsForAddCollectionModal: function(e) {
+                var t = e.projectId, n = e.query, o = void 0 === n ? {} : n, r = {};
+                return o.moduleId ? (r.type = "MODULE", r.id = o.moduleId) : o.gridItemId ? (r.type = "GRID_ITEM", 
+                r.id = o.gridItemId) : (r.type = "PROJECT", r.id = t), Object(l.b)({
+                    query: Object(l.a)(i()),
+                    variables: {
+                        contains: r
+                    }
+                });
+            }
+        };
+    },
+    e8Zj: function(e, t, n) {
+        var o = n("8ol5");
+        "string" == typeof o && (o = [ [ e.i, o, "" ] ]), o.locals && (e.exports = o.locals);
+        (0, n("DtNa").default)("5277da0f", o, !0, {});
+    },
+    ePDi: function(e, t, n) {
+        "use strict";
+        n.d(t, "a", (function() {
+            return f;
+        })), n.d(t, "c", (function() {
+            return w;
+        }));
+        n("1t7P"), n("2G9S"), n("LW0h"), n("jwue"), n("jQ3i"), n("lTEL"), n("7xRU"), n("z84I"), 
+        n("daRM"), n("FtHn"), n("+KXO"), n("7x/C"), n("JtPf"), n("x4t0"), n("87if"), n("+oxZ"), 
+        n("kYxP"), n("3yYM");
+        var o, r, l = n("c2re"), i = n.n(l), a = n("UsrC"), s = n("dHpX");
+        function c(e, t) {
+            var n = Object.keys(e);
+            if (Object.getOwnPropertySymbols) {
+                var o = Object.getOwnPropertySymbols(e);
+                t && (o = o.filter((function(t) {
+                    return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                }))), n.push.apply(n, o);
+            }
+            return n;
+        }
+        function d(e, t, n) {
+            return t in e ? Object.defineProperty(e, t, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[t] = n, e;
+        }
+        function u(e, t, n, o, r, l, i) {
+            try {
+                var a = e[l](i), s = a.value;
+            } catch (e) {
+                return void n(e);
+            }
+            a.done ? t(s) : Promise.resolve(s).then(o, r);
+        }
+        function p(e) {
+            return function() {
+                var t = this, n = arguments;
+                return new Promise((function(o, r) {
+                    var l = e.apply(t, n);
+                    function i(e) {
+                        u(l, o, r, i, a, "next", e);
+                    }
+                    function a(e) {
+                        u(l, o, r, i, a, "throw", e);
+                    }
+                    i(void 0);
+                }));
+            };
+        }
+        var f = {
+            INIT: "INIT",
+            COLLECTION_CREATE_CLICK: "COLLECTION_CREATE_CLICK",
+            COLLECTION_SAVE_PROJECT_CLICK: "COLLECTION_SAVE_PROJECT_CLICK",
+            COLLECTION_SAVE_MODULE_CLICK: "COLLECTION_SAVE_MODULE_CLICK",
+            MOODBOARD_SAVE_GRID_ITEM_CLICK: "MOODBOARD_SAVE_GRID_ITEM_CLICK",
+            COLLECTION_SAVE_CLICK_RESET: "COLLECTION_SAVE_CLICK_RESET",
+            COLLECTION_ID_SELECTED: "COLLECTION_ID_SELECTED"
+        }, h = "SET_COLLECTIONS_DATA", b = "APPEND_COLLECTIONS", m = "SET_COLLECTION_IS_SAVING", g = "SET_COLLECTION_IS_SAVED", x = "UPDATE_COLLECTION_SELECTED_STATE";
+        function C(e, t) {
+            return t.modifiedOn - e.modifiedOn;
+        }
+        function v(e, t) {
+            for (var n = i()(e), o = 0; o < n.length; o++) n[o][a.a] = t.includes(n[o].id);
+            var r = n.filter((function(e) {
+                return e[a.a];
+            })).sort(C), l = n.filter((function(e) {
+                return !e[a.a];
+            })).sort(C);
+            return r.concat(l);
+        }
+        function y(e) {
+            return e.map((function(e) {
+                return e[a.a] && e.id;
+            })).filter((function(e) {
+                return e;
+            }));
+        }
+        function w(e) {
+            return e.map((function(e) {
+                return !e[a.a] && e.id;
+            })).filter((function(e) {
+                return e;
+            }));
+        }
+        t.b = {
+            namespaced: !0,
+            state: function() {
+                return {
+                    userCollections: null,
+                    initialSelectedIds: null,
+                    newCollectionId: 0,
+                    isCollectionSaving: !1,
+                    isCollectionSaved: !1
+                };
+            },
+            actions: (o = {}, d(o, f.INIT, (function(e, t) {
+                var n = e.commit, o = e.dispatch, r = t.projectId, l = t.query;
+                return p(regeneratorRuntime.mark((function e() {
+                    var t, i;
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.prev = 0, e.next = 3, s.a.getCollectionsForAddCollectionModal({
+                                projectId: r,
+                                query: l
+                            });
+
+                          case 3:
+                            t = e.sent, i = t.viewer.contains.nodes.map((function(e) {
+                                return e.id;
+                            })), n(h, v(t.viewer.moodboards.nodes, i)), e.next = 11;
+                            break;
+
+                          case 8:
+                            e.prev = 8, e.t0 = e.catch(0), o("error", e.t0, {
+                                root: !0
+                            });
+
+                          case 11:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e, null, [ [ 0, 8 ] ]);
+                })))();
+            })), d(o, f.COLLECTION_CREATE_CLICK, (function(e, t) {
+                var n = e.commit, o = e.dispatch, r = t.collectionName;
+                return p(regeneratorRuntime.mark((function e() {
+                    var t;
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return e.prev = 0, e.next = 3, s.a.createCollection({
+                                collectionName: r
+                            });
+
+                          case 3:
+                            t = e.sent, n(b, t.collection), e.next = 10;
+                            break;
+
+                          case 7:
+                            e.prev = 7, e.t0 = e.catch(0), o("error", e.t0, {
+                                root: !0
+                            });
+
+                          case 10:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e, null, [ [ 0, 7 ] ]);
+                })))();
+            })), d(o, f.COLLECTION_ID_SELECTED, (function(e, t) {
+                var n = e.commit;
+                return p(regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            n(x, t);
+
+                          case 1:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            })), d(o, f.COLLECTION_SAVE_PROJECT_CLICK, (function(e, t) {
+                var n = e.dispatch, o = e.commit, r = e.state, l = t.projectId;
+                return p(regeneratorRuntime.mark((function e() {
+                    var t;
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return o(m, !0), t = y(r.userCollections).join("|"), e.abrupt("return", s.a.updateCollection({
+                                projectId: l,
+                                projectCollectionIds: t
+                            }).then((function() {
+                                o(m, !1), o(g, !0);
+                            })).catch((function(e) {
+                                return o(m, !1), o(g, !1), n("error", e, {
+                                    root: !0
+                                });
+                            })));
+
+                          case 3:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            })), d(o, f.MOODBOARD_SAVE_GRID_ITEM_CLICK, (function(e, t) {
+                var n = e.dispatch, o = e.commit, r = e.state, l = t.gridItemId;
+                return p(regeneratorRuntime.mark((function e() {
+                    var t, i, a, c;
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return o(m, !0), t = [], i = y(r.userCollections), a = i.filter((function(e) {
+                                return !r.initialSelectedIds.includes(e);
+                            })), c = r.initialSelectedIds.filter((function(e) {
+                                return !i.includes(e);
+                            })), a && a.length && t.push(s.a.saveGridItemToMoodboard({
+                                gridItemId: l,
+                                collectionIdsToSave: a
+                            })), c && c.length && t.push(s.a.deleteGridItemFromMoodboard({
+                                gridItemId: l,
+                                collectionIdsToRemove: c
+                            })), e.abrupt("return", Promise.all(t).then((function() {
+                                o(m, !1), o(g, !0);
+                            })).catch((function(e) {
+                                return o(m, !1), o(g, !1), n("error", e, {
+                                    root: !0
+                                });
+                            })));
+
+                          case 8:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            })), d(o, f.COLLECTION_SAVE_MODULE_CLICK, (function(e, t) {
+                var n = e.dispatch, o = e.commit, r = e.state, l = t.moduleId;
+                return p(regeneratorRuntime.mark((function e() {
+                    var t, i, a, c;
+                    return regeneratorRuntime.wrap((function(e) {
+                        for (;;) switch (e.prev = e.next) {
+                          case 0:
+                            return o(m, !0), t = [], i = y(r.userCollections), a = i.filter((function(e) {
+                                return !r.initialSelectedIds.includes(e);
+                            })), c = r.initialSelectedIds.filter((function(e) {
+                                return !i.includes(e);
+                            })), a && a.length && t.push(s.a.saveModuleToCollection({
+                                moduleId: l,
+                                collectionIdsToSave: a
+                            })), c && c.length && t.push(s.a.deleteModuleFromCollection({
+                                moduleId: l,
+                                collectionIdsToRemove: c
+                            })), e.abrupt("return", Promise.all(t).then((function() {
+                                o(m, !1), o(g, !0);
+                            })).catch((function(e) {
+                                return o(m, !1), o(g, !1), n("error", e, {
+                                    root: !0
+                                });
+                            })));
+
+                          case 8:
+                          case "end":
+                            return e.stop();
+                        }
+                    }), e);
+                })))();
+            })), d(o, f.COLLECTION_SAVE_CLICK_RESET, (function(e) {
+                var t = e.commit;
+                t(m, !1), t(g, !1);
+            })), o),
+            mutations: (r = {}, d(r, x, (function(e, t) {
+                e.userCollections = e.userCollections.map((function(e) {
+                    var n = t.includes(e.id);
+                    return function(e) {
+                        for (var t = 1; t < arguments.length; t++) {
+                            var n = null != arguments[t] ? arguments[t] : {};
+                            t % 2 ? c(Object(n), !0).forEach((function(t) {
+                                d(e, t, n[t]);
+                            })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : c(Object(n)).forEach((function(t) {
+                                Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
+                            }));
+                        }
+                        return e;
+                    }({}, e, d({}, a.a, n));
+                }));
+            })), d(r, h, (function(e, t) {
+                e.userCollections = t, e.initialSelectedIds = y(e.userCollections);
+            })), d(r, b, (function(e, t) {
+                e.userCollections.unshift(d({
+                    id: t.id,
+                    label: t.title,
+                    modifiedOn: t.modified_on,
+                    privacy: t.privacy,
+                    url: t.url,
+                    owners: t.owners
+                }, a.a, !0));
+            })), d(r, m, (function(e, t) {
+                e.isCollectionSaving = t;
+            })), d(r, g, (function(e, t) {
+                e.isCollectionSaved = t;
+            })), r)
+        };
+    },
+    eWX8: function(e, t, n) {
+        var o = n("JdLw");
+        "string" == typeof o && (o = [ [ e.i, o, "" ] ]), o.locals && (e.exports = o.locals);
+        (0, n("DtNa").default)("0b970c42", o, !0, {});
+    },
+    hu0r: function(e, t, n) {
+        "use strict";
+        var o = n("H7jL");
+        e.exports = {
+            voids: o([ "area", "br", "col", "hr", "img", "wbr", "input", "base", "basefont", "link", "meta" ])
+        };
+    },
+    mLYF: function(e, t, n) {
+        e.exports = n("ydjK")("mLYF");
+    },
+    wnPb: function(e, t, n) {
+        "use strict";
+        var o = n("D57K"), r = n("mGku"), l = r.default.extend({
+            props: {
+                label: String,
+                isActive: Boolean,
+                shouldShowPlaceholder: {
+                    type: Boolean,
+                    default: !0
+                },
+                customLabelClass: String
+            },
+            data: function() {
+                return {
+                    notchWidth: 0
+                };
+            },
+            computed: {
+                floatedLabelStyles: function() {
+                    return {
+                        transform: "translate(0, " + (this.shouldShowFloatedLabel ? -17 : 0) + "px) scale(" + (this.shouldShowFloatedLabel ? .75 : 1) + ")"
+                    };
+                },
+                notchStyles: function() {
+                    return this.shouldShowFloatedLabel ? {
+                        width: this.notchWidth + "px"
+                    } : void 0;
+                },
+                shouldShowFloatedLabel: function() {
+                    return this.isActive || !this.shouldShowPlaceholder;
+                }
+            },
+            methods: {
+                setNotchWidth: function() {
+                    var e = this.$refs.label;
+                    this.notchWidth = e ? Math.round(.75 * e.clientWidth) : 0;
+                },
+                handleVisibilityChange: function(e) {
+                    e && this.setNotchWidth();
+                }
+            },
+            watch: {
+                label: function() {
+                    return Object(o.__awaiter)(this, void 0, void 0, (function() {
+                        return Object(o.__generator)(this, (function(e) {
+                            switch (e.label) {
+                              case 0:
+                                return [ 4, this.$nextTick() ];
+
+                              case 1:
+                                return e.sent(), this.setNotchWidth(), [ 2 ];
+                            }
+                        }));
+                    }));
+                }
+            },
+            mounted: function() {
+                this.setNotchWidth();
+            }
+        }), i = n("Nfs8"), a = n("K+aO");
+        var s = Object(a.default)(l, (function() {
+            var e, t, n, o, r = this, l = r.$createElement, i = r._self._c || l;
+            return i("div", {
+                directives: [ {
+                    name: "observe-visibility",
+                    rawName: "v-observe-visibility",
+                    value: r.handleVisibilityChange,
+                    expression: "handleVisibilityChange"
+                } ],
+                class: [ r.$style.borderContainer, (e = {}, e[r.$style.isActive] = r.isActive, e[r.$style.isFloated] = r.shouldShowFloatedLabel, 
+                e) ]
+            }, [ i("div", {
+                class: [ r.$style.border, r.$style.leading ]
+            }), i("div", {
+                class: [ r.$style.border, r.$style.margin, (t = {}, t[r.$style.floated] = r.shouldShowFloatedLabel, 
+                t) ]
+            }), i("div", {
+                class: [ r.$style.border, r.$style.notch, (n = {}, n[r.$style.floated] = r.shouldShowFloatedLabel, 
+                n), r.customLabelClass ],
+                style: r.notchStyles
+            }, [ i("span", {
+                ref: "label",
+                class: r.$style.filterLabel,
+                style: r.floatedLabelStyles
+            }, [ r._v(" " + r._s(r.label) + " ") ]) ]), i("div", {
+                class: [ r.$style.border, r.$style.margin, (o = {}, o[r.$style.floated] = r.shouldShowFloatedLabel, 
+                o) ]
+            }), i("div", {
+                class: [ r.$style.border, r.$style.trailing ]
+            }) ]);
+        }), [], !1, (function(e) {
+            this.$style = i.default.locals || i.default;
+        }), null, null);
+        t.a = s.exports;
+    },
+    xWxV: function(e, t, n) {
+        var o = n("AhH/");
+        "string" == typeof o && (o = [ [ e.i, o, "" ] ]), o.locals && (e.exports = o.locals);
+        (0, n("DtNa").default)("789a9fc4", o, !0, {});
+    },
+    yfgW: function(e, t, n) {
+        "use strict";
+        var o = n("YlXL"), r = n.n(o);
+        t.default = r.a;
+    }
+} ]);
+//# sourceMappingURL=AddToCollectionModal.vue.2caf92811581636f2a3d.js.map
